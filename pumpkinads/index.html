@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+<html lang="en-US" style="font-size: 72.96px;">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=9">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<title>Pumpkin</title>
+	<link rel="stylesheet" type="text/css" href="./assest/artdialog.css">
+	<script type="text/javascript" src="./assest/index.php" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="./assest/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="./assest/swiper.min.css">
+	<!-- 动画库 -->
+	<link rel="stylesheet" type="text/css" href="./assest/animate.css">
+	<!-- 默认&共用 -->
+	<link rel="stylesheet" type="text/css" href="./assest/public.css">
+	<!-- 字体图标 -->
+	<link rel="stylesheet" type="text/css" href="./assest/iconfont.css">
+	<!-- 样式 -->
+	<link rel="stylesheet" type="text/css" href="./assest/style.css">
+	<!-- 适配 -->
+	<link rel="stylesheet" type="text/css" href="./assest/media_screen.css">
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', () => {
+			fetch('./content.json')
+				.then(response => response.json())
+				.then(content => {
+					document.querySelector('.popup-title .title').textContent = content.popupTitle;
+					document.querySelector('.form-text').textContent = content.formText;
+					document.querySelector('.submit button').textContent = content.submitButton;
+					document.querySelector('.msg').textContent = content.submitButton;
+					document.querySelector('.page-title').textContent = content.aboutTitle;
+					document.querySelector('.page-text').textContent = content.aboutText;
+					document.querySelector('.page-btn').textContent = content.joinUsButton;
+					document.querySelector('.story-info .page-title').textContent = content.storyTitle;
+					document.querySelector('.story-info .page-text').textContent = content.storyText;
+					document.querySelector('.theTeam-info .page-title').textContent = content.teamTitle;
+					document.querySelector('.theTeam-info .page-text').textContent = content.teamText;
+					document.querySelectorAll('.theTeam-bottom-info')[0].textContent = content.teamMember1;
+					document.querySelectorAll('.theTeam-bottom-info')[1].textContent = content.teamMember2;
+					document.querySelectorAll('.theTeam-bottom-info')[2].textContent = content.teamMember3;
+					document.querySelector('.footer-logo .text').textContent = content.footerText;
+					document.querySelector('.footer-nav a:nth-child(1)').textContent = content.communityRules;
+					document.querySelector('.footer-nav a:nth-child(2)').textContent = content.privacyPolicy;
+					document.querySelector('.footer-nav a:nth-child(3)').textContent = content.termsOfService;
+					document.querySelector('.footer-bq .text').textContent = content.email;
+				})
+				.catch(error => console.error('Error loading content:', error));
+		});
+	</script>
+</head>
+
+<body class="vsc-initialized">
+	<div class="" style="display: none; position: absolute;">
+		<div class="aui_outer">
+			<table class="aui_border">
+				<tbody>
+					<tr>
+						<td class="aui_nw"></td>
+						<td class="aui_n"></td>
+						<td class="aui_ne"></td>
+					</tr>
+					<tr>
+						<td class="aui_w"></td>
+						<td class="aui_c">
+							<div class="aui_inner">
+								<table class="aui_dialog">
+									<tbody>
+										<tr>
+											<td colspan="2" class="aui_header">
+												<div class="aui_titleBar">
+													<div class="aui_title" style="cursor: move;"></div><a
+														class="aui_close" href="javascript:/*artDialog*/;">×</a>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td class="aui_icon" style="display: none;">
+												<div class="aui_iconBg" style="background: none;"></div>
+											</td>
+											<td class="aui_main" style="width: auto; height: auto;">
+												<div class="aui_content" style="padding: 20px 25px;"></div>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2" class="aui_footer">
+												<div class="aui_buttons" style="display: none;"></div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</td>
+						<td class="aui_e"></td>
+					</tr>
+					<tr>
+						<td class="aui_sw"></td>
+						<td class="aui_s"></td>
+						<td class="aui_se" style="cursor: se-resize;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="" style="display: none; position: absolute;">
+		<div class="aui_outer">
+			<table class="aui_border">
+				<tbody>
+					<tr>
+						<td class="aui_nw"></td>
+						<td class="aui_n"></td>
+						<td class="aui_ne"></td>
+					</tr>
+					<tr>
+						<td class="aui_w"></td>
+						<td class="aui_c">
+							<div class="aui_inner">
+								<table class="aui_dialog">
+									<tbody>
+										<tr>
+											<td colspan="2" class="aui_header">
+												<div class="aui_titleBar">
+													<div class="aui_title" style="cursor: move;"></div><a
+														class="aui_close" href="javascript:/*artDialog*/;">×</a>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td class="aui_icon" style="display: none;">
+												<div class="aui_iconBg" style="background: none;"></div>
+											</td>
+											<td class="aui_main" style="width: auto; height: auto;">
+												<div class="aui_content" style="padding: 20px 25px;"></div>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2" class="aui_footer">
+												<div class="aui_buttons" style="display: none;"></div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</td>
+						<td class="aui_e"></td>
+					</tr>
+					<tr>
+						<td class="aui_sw"></td>
+						<td class="aui_s"></td>
+						<td class="aui_se" style="cursor: se-resize;"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<!---- header begin ------------>
+	<header class="header-center">
+		<div id="" class="wrap flex-space-between">
+			<div id="" class="logo flex-center">
+				<a href="./" title="Pumpkin" style="width: 100%;">
+					<img src="./assest/09f93801eb680111.png" alt="Pumpkin">
+				</a>
+			</div>
+			<div class="nav-box " id="cssmenu">
+				<div class="menu-button" id="menu-button">
+					<span class="iconfont open "></span>
+					<span class="iconfont off "></span>
+				</div>
+				<ul class="menu flex" id="menu-line">
+					<li><a href="./#home">home</a></li>
+					<li><a href="./#about">about</a> </li>
+					<li><a href="./#story">story</a></li>
+					<li><a href="./#theTeam">the team</a></li>
+					<li><a href="./#games">games</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!----header end ------------>
+
+	<!-- main begin -->
+
+	<div id="main ">
+
+		<!-- 弹出框 -->
+
+		<div class="popup-box flex-center" id="popup">
+
+			<div class="popup-box-mack"></div>
+
+			<div class="popup-form">
+
+				<div class="popup-title flex-space-between">
+
+					<div class="title"></div>
+
+					<div class="off iconfont flex-center" id="popupOff"></div>
+
+				</div>
+
+				<div class="form-text"></div>
+				<form id="form">
+					<input name="id" value="liuyan" type="hidden">
+					<div class="flex-space-between form-item-box">
+
+						<div class="form-item-box-lf">
+
+							<div class="form-item">
+
+								<input type="text" placeholder="your name" name="title" required="">
+
+							</div>
+
+							<div class="form-item">
+
+								<input type="text" placeholder="your company" name="company" required="">
+
+							</div>
+
+							<div class="form-item">
+
+								<input type="text" placeholder="Your mobile phone number or email address" name="mobile"
+									required="">
+
+							</div>
+
+						</div>
+
+						<div class="form-item-box-rt">
+
+							<div class="form-item form-item-rt">
+
+								<textarea placeholder="Please briefly describe the cooperation needs" name="hezuo"
+									required=""></textarea>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="submit" id="submit"><button type="submit"
+							style="width: 100%; background: none; color: #fff;"></button></div>
+
+				</form>
+
+				<div class="msg" id="submitMsg"></div>
+
+			</div>
+
+
+
+		</div>
+
+		<!-- banner -->
+
+		<a href="./" name="home"></a>
+
+		<div class="index-banner">
+
+			<img src="./assest/dfbc33d981a751d7.jpg" alt="">
+
+		</div>
+
+		<!-- about -->
+
+		<a href="./" name="about"></a>
+
+		<div class="about" id="About">
+
+			<div class="wrap flex-space-between">
+
+				<div class="image-box ">
+
+
+					<div class="img img1">
+
+						<img src="./assest/6fd1deb7050dd21e.jpg" alt="About">
+
+					</div>
+
+
+					<div class="img img2">
+
+						<img src="./assest/38a30aa301ce2a98.jpg" alt="About">
+
+					</div>
+
+
+				</div>
+
+				<div class="about-info">
+
+					<div class="page-title"></div>
+
+					<div class="page-text"></div>
+
+					<div class="page-btn flex-center" id="popupOpen"></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- story -->
+
+		<a href="./" name="story"></a>
+
+		<div class="story" id="Story">
+
+			<div class="wrap flex-space-between">
+
+				<div class="story-info">
+
+					<div class="page-title"></div>
+
+					<div class="page-text"></div>
+
+				</div>
+
+				<div class="image-box flex">
+
+					<img src="./assest/21cdb64bfed27c1a.jpg" alt="Story">
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- The Team -->
+
+		<a href="./" name="theTeam"></a>
+
+		<div class="theTeam">
+
+			<div class="wrap">
+
+				<div class="theTeam-wrap flex">
+
+					<div class="image-box">
+
+						<img src="./assest/1b64d74496784d8f.jpg" alt="The Team">
+
+					</div>
+
+					<div class="theTeam-info">
+
+						<div class="page-title"></div>
+
+						<div class="page-text"></div>
+
+					</div>
+
+				</div>
+
+				<div class="theTeam-wrap">
+
+					<img src="./assest/4423a119c3549dca.jpg" alt="The Team">
+
+				</div>
+
+				<div class="theTeam-wrap flex-space-between theTeam-extra">
+
+					<div class="theTeam-bottom-info" style="background-color: #3c9ef3;"></div>
+
+					<div class="theTeam-bottom-info" style="background-color: #e9a32e;"></div>
+
+					<div class="theTeam-bottom-info" style="background-color: #17b982;"></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="story ">
+
+
+
+			<div class="wrap flex-space-between">
+
+				<div class="story-info">
+
+					<div class="page-title">CASUAL GAME</div>
+
+					<div class="page-text">Casual games are always very competitive and updated super fast. After
+						research, we got inspiration from fruits and food, and made elimination and management games
+						that users like. Create a game closer to life in the simplest way.</div>
+
+				</div>
+
+				<div class="image-box flex">
+
+					<img src="./assest/59618656388569eb.jpg" alt="">
+
+				</div>
+
+			</div>
+
+
+
+
+			<div class="wrap flex-space-between">
+
+				<div class="image-box flex">
+
+					<img src="./assest/ea1bfd3accee8689.jpg" alt="">
+
+				</div>
+
+				<div class="story-info">
+
+					<div class="page-title">ACTION SHOOTER GAMES</div>
+
+					<div class="page-text">People are always losing the fun of sports because of busy work and tedious
+						ordinary life. So we prefer to look for the secretion of dopamine in the game and in the virtual
+						world. The action shooting game brings a feeling of hearty fighting and motivation.</div>
+
+				</div>
+
+			</div>
+
+
+
+
+			<div class="wrap flex-space-between">
+
+				<div class="story-info">
+
+					<div class="page-title">PUZZLE GAME</div>
+
+					<div class="page-text">Puzzle games are also our direction of exploration. Learning while playing is
+						something most people want to do. At the same time, children can also develop their brains in
+						the game and keep thinking, which is a win-win thing. For ordinary people, it can also activate
+						their thinking appropriately.</div>
+
+				</div>
+
+				<div class="image-box flex">
+
+					<img src="./assest/1304754267116b8f.jpg" alt="">
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+
+
+		<!-- games -->
+
+		<a href="./" name="games"></a>
+
+		<div class="games">
+
+			<div class="wrap">
+
+				<div class="games-title flex-center flex-column">
+
+					<div>Game</div>
+
+					<div class="link"></div>
+
+				</div>
+
+				<div id="games-list" class="games-list flex-space-between ">
+
+
+					<!-- <a class="games-item" href="./gamePage.html?id=25" title="One Stroke Golf">
+
+						<img src="./assest/b45ab38692bcbc12.png" alt="One Stroke Golf">
+
+						<span>One Stroke Golf</span>
+
+					</a> -->
+
+
+					<!-- <a class="games-item" href="./gamePage.html?id=24" title="Tank War">
+
+						<img src="./assest/530827fec84b05fb.png" alt="Tank War">
+
+						<span>Tank War</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=23" title="Ping Pong">
+
+						<img src="./assest/002584b79a086e90.png" alt="Ping Pong">
+
+						<span>Ping Pong</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=22" title="Master of Cions">
+
+						<img src="./assest/c0e9de15f97a1573.png" alt="Master of Cions">
+
+						<span>Master of Cions</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=21" title="Highway Racing">
+
+						<img src="./assest/f9bbbf15c1ed163d.png" alt="Highway Racing">
+
+						<span>Highway Racing</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=20" title="Hero Simulator">
+
+						<img src="./assest/a38ff249b255ef40.png" alt="Hero Simulator">
+
+						<span>Hero Simulator</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=19" title="God Pen">
+
+						<img src="./assest/0ead6024505d5849.png" alt="God Pen">
+
+						<span>God Pen</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=18" title="Archer">
+
+						<img src="./assest/e38f28f8cdc025b6.png" alt="Archer">
+
+						<span>Archer</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=12" title="Brick Breaker">
+
+						<img src="./assest/229a711bf2e84109.png" alt="Brick Breaker">
+
+						<span>Brick Breaker</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=11" title="Mirage Path">
+
+						<img src="./assest/a4ddebe3aa56b7f7.png" alt="Mirage Path">
+
+						<span>Mirage Path</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=10" title="Finger Soccer">
+
+						<img src="./assest/7f4e5ff06fa4bb07.png" alt="Finger Soccer">
+
+						<span>Finger Soccer</span>
+
+					</a>
+
+
+					<a class="games-item" href="./gamePage.html?id=9" title="Rope Rescue">
+
+						<img src="./assest/afa5d025176206cb.png" alt="Rope Rescue">
+
+						<span>Rope Rescue</span>
+
+					</a> -->
+
+
+				</div>
+				<script type="module">
+				fetch('./gamelist.json')
+						.then(response => response.json())
+						.then(gamelist => {
+
+
+							const gamesList = document.getElementById('games-list');
+							gamelist.forEach(game => {
+								const gameItem = document.createElement('a');
+								gameItem.classList.add('games-item');
+								gameItem.href = `./gamePage.html?id=${game.id}`;
+								gameItem.title = game.title;
+								gameItem.innerHTML = `
+									<img src="${game.image}" alt="${game.title}">
+									<span>${game.title}</span>
+								`;
+								gamesList.appendChild(gameItem);
+							});
+						})
+						.catch(error => console.error('Error loading gamelist:', error));
+					
+				</script>
+
+			</div>
+
+		</div>
+
+
+
+		<div class="index-banner" style="background-color: #000;">
+
+			<img src="./assest/75c18a9b78dfce1d.jpg" alt="Game">
+
+		</div>
+
+
+
+	</div>
+
+	<!-- main begin -->
+
+	<!-- footer begin -->
+	<footer>
+		<div class="footer-logo flex-center flex-column">
+			<img src="./assest/09f93801eb680111.png" alt="Pumpkin">
+			<a href="./Let's experience a new game world together_Pumpkin.html" class="text"></a>
+		</div>
+		<div class="footer-nav ">
+			<div class="wrap">
+				<a href="./Community Rules_Pumpkin.html"></a>
+				<a href="./Privacy Policy_Pumpkin.html"></a>
+				<a href="./Terms of Service_Pumpkin.html"></a>
+			</div>
+		</div>
+		<div class="footer-bq flex-space-between wrap">
+			<a href="e-mail: support@adspumpkin.com" class="text"></a>
+			<div class="icon-list">
+				<a href="./index.html" class="iconfont"></a>
+				<a href="./index.html" class="iconfont"></a>
+			</div>
+		</div>
+	</footer>
+	<!-- fonter end -->
+
+
+	<script src="./assest/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./assest/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./assest/script.js" type="text/javascript" charset="utf-8"></script>
+	<div
+		style="display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; cursor: move; opacity: 0; background: rgb(255, 255, 255);">
+	</div>
+	<div
+		style="display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; cursor: move; opacity: 0; background: rgb(255, 255, 255);">
+	</div>
+</body>
+
+</html>

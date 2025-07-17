@@ -1,0 +1,157 @@
+
+  @media screen and (max-width: 1200px) {
+      #indexPage .threeDGameGridBox .game-item,#indexPage .AdventureGameGridBox .game-item,#indexPage .BoysGameGridBox .game-item {
+        width: calc(100% / 4);
+      }
+        #indexPage .threeDGameGridBox .game-item:nth-last-child(-n + 4) {
+          display: none;
+        }
+        #indexPage .AdventureGameGridBox .game-item:nth-last-child(-n + 4) {
+          display: none;
+        }
+        #indexPage .BoysGameGridBox .game-item:nth-last-child(-n + 4) {
+          display: none;
+        }
+
+    
+
+    #indexPage .hero {
+      padding: 6rem 5% 3rem;
+      text-align: center;
+    }
+
+      #indexPage .hero h1 {
+        font-size: 2rem;
+      }
+      #indexPage .hero p {
+        font-size: 1rem;
+      }
+      #indexPage .hero .hero-image {
+        top: 50%;
+        right: -50px;
+        width: 50vw;
+      }
+    #indexPage .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+    #indexPage .mission-container {
+      gap: 3rem;
+    }
+  }
+/* 核心处理 */
+@media screen and (max-width: 1000px) {
+      #indexPage .hero-content h1 {
+        max-width: 100%;
+      }
+      #indexPage .hero-content p {
+        max-width: 100%;
+      }
+    #indexPage .hero-image {
+      display: none;
+    }
+    #indexPage .cta-button {
+      margin: 0 auto;
+    }
+
+    #indexPage .contact-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    @media screen and (max-width: 800px) {
+        #indexPage .nav-links a:nth-child(1) {
+          display: none;
+        }
+        #indexPage .nav-links a:nth-child(2) {
+          display: none;
+        }
+      
+      #indexPage .mission-container {
+        flex-direction: column;
+        gap: 2rem;
+      }
+        #indexPage .mission-container .mission-image {
+          order: -1;
+          max-width: 500px;
+          margin: 0 auto;
+        }
+
+        #indexPage .mission-container .mission-content {
+          text-align: center;
+        }
+        #indexPage .contact-info .logo {
+          font-size: 1.5rem;
+        }
+        #indexPage .contact-info p {
+          font-size: 1rem;
+        }
+          #indexPage .contact-info p:first-of-type {
+            font-size: 1.1rem;
+            margin-bottom: 0rem;
+          }
+        #indexPage .contact-info .contact-links {
+          margin-top: 1rem;
+        }
+          #indexPage .contact-info .contact-links a {
+            font-size: 0.9rem;
+          }
+
+      #indexPage .form-banner {
+        display: none;
+      }
+
+      @media screen and (max-width: 500px) {
+        
+        #indexPage .features-grid {
+          gap: 1rem;
+        }
+            #indexPage .features-grid .section-title h2 {
+              font-size: 2rem;
+            }
+          #indexPage .features-grid .feature-card {
+            padding: 1.5rem;
+          }
+            #indexPage .features-grid .feature-card .feature-icon {
+              width: 100px;
+              height: 100px;
+            }
+
+            #indexPage .features-grid .feature-card h3 {
+              font-size: 1rem;
+            }
+
+        #indexPage .features-description {
+          font-size: 1rem;
+          padding: 0 1rem;
+        }
+            #indexPage .our-mission .mission-content span {
+              font-size: 1.2rem;
+            }
+            #indexPage .our-mission .mission-content p {
+              font-size: 1rem;
+            }
+
+        #indexPage .font1 {
+          font-size: 1rem;
+          font-weight: 300;
+        }
+        #indexPage .font2 {
+          font-size: 0.6rem;
+          font-weight: 400;
+        }
+        #indexPage .font3 {
+          font-size: 1rem;
+          font-weight: 500;
+        }
+        #indexPage .font4 {
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+        #indexPage .font5 {
+          font-size: 4rem;
+          font-weight: 800;
+        }
+      }
+    }
+  }

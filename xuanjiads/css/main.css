@@ -1,0 +1,25 @@
+@import "./base.css";
+@import "./tool.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  all: unset;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  line-height: 1;
+  transition: all 0.5s;
+  font-size: var(--fontSize);
+  background-color: #f5f8ff;
+  font-family: Arial, sans-serif;
+}
+
+

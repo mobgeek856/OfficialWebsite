@@ -1,0 +1,13 @@
+@import url("./main.css");
+@import "play_mobile.css";
+
+.playPage {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  
+}
+

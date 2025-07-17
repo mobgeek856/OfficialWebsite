@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "title": "One Stroke Golf",
+    "image": "./imgs/1/image.png",
+    "Introduction": "Mini Golf. Are you a golf expert? If so, challenge it quickly and gently hit the ball into the hole as few times as possible.",
+    "gameplay": "Drag the ball to determine the direction and force of hitting, operate reasonably, and drive the golf ball into the hole.",
+    "gameListImgs": ["./imgs/1/1.jpg"],
+    "download": "https://landing-files.hippogames.com.cn/DGZRGEF/DGZRGEF.apk"
+  },
+  {
+    "id": 2,
+    "title": "Tank War",
+    "image": "./imgs/2/image.png",
+    "Introduction": "Classic 90 Tank Battle Medal Edition, do you remember the classic tank battle? Do you remember how to play? It's very interesting, playing this game can bring back your memories! Hurry up and give it a try.",
+    "gameplay": "Control your tank movement and shooting, eliminate enemy tanks, and protect your territory.1",
+    "gameListImgs": ["./imgs/2/1.jpg", "./imgs/2/2.jpg", "./imgs/2/3.jpg"],
+    "download": "https://landing-files.hippogames.com.cn/TKDZ/Tank%20War.apk"
+  },
+  {
+    "id": 3,
+    "title": "Ping Pong",
+    "image": "./imgs/3/image.png",
+    "Introduction": "In the game, you need to quickly catch the table tennis ball and try not to let it fall outside the racket. Come and challenge for high scores.",
+    "gameplay": "Move the racket left and right to catch the rapidly falling ping pong ball and score high points.1",
+    "gameListImgs": ["./imgs/3/1.jpg", "./imgs/3/2.jpg", "./imgs/3/3.jpg"],
+    "download": "https://landing-files.hippogames.com.cn/PPQ/Ping%20Pong.apk"
+
+  },
+  {
+    "id": 4,
+    "title": "Master of Cions",
+    "image": "./imgs/4/image.png",
+    "Introduction": "A very interesting little game, control your collector to collect all the gold coins in the world!",
+    "gameplay": "Only by constantly moving to eat coins can we ensure that the game does not end.",
+    "gameListImgs": ["./imgs/4/1.jpg", "./imgs/4/2.jpg", "./imgs/4/3.jpg"],
+    "download": "https://landing-files.hippogames.com.cn/JBDS/Master%20of%20Coins.apk"
+
+  },
+  {
+    "id": 5,
+    "title": "Highway Racing",
+    "image": "./imgs/5/image.png",
+    "Introduction": "On this tranquil road, racing drivers drove their beloved cars to carry out a small car race. In the game, you can choose multiple sports cars, let's wait and see if the champion appears.",
+    "gameplay": "Operate the car at the fastest speed, race ahead of the opponent and win the race.",
+    "gameListImgs": ["./imgs/5/1.jpg", "./imgs/5/2.jpg", "./imgs/5/3.jpg"],
+    "download": "https://landing-files.hippogames.com.cn/GSGLSC/Highway%20Racing.apk"
+  },
+
+  {
+    "id": 6,
+    "title": "Hero Simulator",
+    "image": "./imgs/6/image.png",
+    "Introduction": "Daxia Simulator is a vertical screen version of the martial arts placement and development game, which adopts the overall Chinese style and ink style characteristics. The gameplay mode is also a common hanging up placement mode, and there are two types of characters for players to choose from. Although there are not many characters, the main core gameplay is still a concentrated level section.",
+    "gameplay": "Adventure is the main combat gameplay for players. There are multiple chapters here, with different numbers and abilities of enemies in each chapter. The later the difficulty increases, the more difficult it becomes. At this point, it is necessary to open a treasure chest in the store, organize equipment, and complete the overall improvement of personal strength by collecting equipment of different qualities",
+    "gameListImgs": ["./imgs/6/1.jpg", "./imgs/6/2.jpg", "./imgs/6/3.jpg"],
+    "download": "https://landing-files.hippogames.com.cn/DXMNQ/Hero%20Simulator.apk"
+  },
+    {
+        "id": 7,
+        "title": "God Pen",
+        "image": "./imgs/7/image.png",
+        "Introduction": "In the game, we need to observe the given graphics and find the missing part. By using a divine pen to fill it in, we can successfully pass the level. Now let's give it a try together!",
+        "gameplay": "Draw a line on the screen and fill the cup with water.1",
+        "gameListImgs": ["./imgs/7/1.jpg", "./imgs/7/2.jpg", "./imgs/7/3.jpg"],
+        "download": "https://landing-files.hippogames.com.cn/SLZB/SLZB.apk"
+    },
+    {
+        "id": 8,
+        "title": "Archer",
+        "image": "./imgs/8/image.png",
+        "Introduction": "You are a national defender and possess extraordinary archery skills. One day, a bunch of monsters suddenly appeared in the jungle. You need to eliminate them all and save your country.",
+        "gameplay": "Click to control aiming/shooting, eliminate all opponents, and defend your home.",
+        "gameListImgs": ["./imgs/8/1.jpg", "./imgs/8/2.jpg", "./imgs/8/3.jpg"],
+        "download": "https://hippolanding.oss-cn-hangzhou.aliyuncs.com/GJS/GJS.apk"
+    },
+    {
+        "id": 9,
+        "title": "Brick Breaker",
+        "image": "./imgs/9/image.png",
+        "Introduction": "In the game, we need to control the direction of the ball's launch and hit the number block to eliminate it to score. Now let's give it a try together.",
+        "gameplay": "Reasonably operate and eliminate digital bricks. The numbers on the blocks represent their life, and remember to collect white balls when eliminating the blocks.",
+        "gameListImgs": ["./imgs/9/1.jpg", "./imgs/9/2.jpg", "./imgs/9/3.jpg"],
+        "download": "https://landing-files.hippogames.com.cn/SZDZK/Brick%20Breaker.apk"
+    },
+    {
+        "id": 10,
+        "title": "Mirage Path",
+        "image": "./imgs/10/image.png",
+        "Introduction": "Step by step, the road behind is disappearing, and the road ahead is merging. It depends on how high and far you jump.",
+        "gameplay": "Press the screen continuously to challenge high scores.1",
+        "gameListImgs": ["./imgs/10/1.jpg", "./imgs/10/2.jpg", "./imgs/10/3.jpg"],
+        "download": "https://landing-files.hippogames.com.cn/HJ/Mirage%20Path.apk"
+    },
+    {
+        "id": 11,
+        "title": "Finger Soccer",
+        "image": "./imgs/11/image.png",
+        "Introduction": "The first hand flick (second tone) football World Cup is starting~Use your fingers to flick your thumb player, don't touch the defender, shoot the ball into the goal to enter the next challenge, and if all levels are successfully challenged, you can win the World Cup.",
+        "gameplay": "The first hand flick (second tone) football World Cup is starting~Use your fingers to flick your thumb player, don't touch the defender, shoot the ball into the goal to enter the next challenge, and if all levels are successfully challenged, you can win the World Cup.",
+        "gameListImgs": ["./imgs/11/1.jpg", "./imgs/11/2.jpg", "./imgs/11/3.jpg"],
+        "download": "https://landing-files.hippogames.com.cn/SZZQ/SZZQ.apk"
+    },
+    {
+        "id": 12,
+        "title": "Rope Rescue",
+        "image": "./imgs/12/image.png",
+        "Introduction": "In the game, there is a group of people trapped on a cliff, and only one rope can slide down the cliff. We need to pull the rope well and successfully rescue them. Come and rescue the fallen masses quickly.",
+        "gameplay": "Control direction keys, control ropes, connect destinations, and rescue people.",
+        "gameListImgs": ["./imgs/12/1.jpg", "./imgs/12/2.jpg", "./imgs/12/3.jpg"],
+        "download": "https://landing-files.hippogames.com.cn/SSJY/SSJY.apk"
+    }
+]

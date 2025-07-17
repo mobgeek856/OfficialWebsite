@@ -1,0 +1,167 @@
+/* 默认样式 */
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #333;
+	width: 100%;
+	height: auto;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-moz-hyphens: auto;
+	overflow-x: hidden;
+}
+
+a {
+	color: #000;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:link,
+a:focus {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+	background: none;
+	text-decoration: none;
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+
+a.check {
+	color: #fff !important;
+	font-weight: bold;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+button {
+	padding: 0;
+	border: none;
+}
+
+input {
+	border: none;
+}
+
+input::placeholder {
+	color: #999;
+	font-size: 14px;
+}
+
+
+/* 公共样式 */
+.main {
+	width: 100vw;
+	background-color: #000;
+}
+
+.wrap {
+	width: 1300px;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+/* 定位 */
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+/* 排版 */
+.flex {
+	display: flex;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-shrink {
+	flex-shrink: 0;
+}
+
+/* 字体超出显示... */
+.ovh {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ovh2 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.ovh3 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+
+.ovh4 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+
+/* 显示与隐藏 */
+.block {
+	display: block;
+}
+
+.none {
+	display: none;
+}

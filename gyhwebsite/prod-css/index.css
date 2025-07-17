@@ -1,0 +1,675 @@
+@import url("./main.css");
+@import "index_mobile.css";
+
+.indexPage {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.indexPage .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 1);
+    border-bottom: 5px solid #fc406a; /* 添加底部红线 */
+  }
+
+.indexPage .header .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 5%;
+    }
+
+.indexPage .header .nav .logo .logoimg {
+  height: 35px; 
+  width: auto; 
+  margin-left: 40px;
+}
+  
+.indexPage .header .nav .logo .logotxt {
+    font-family: 'fzdhjt', sans-serif;
+    font-size: 1rem;
+    margin-top: 2px;
+    font-weight: bold;
+    border-left: 2px solid #000;
+  /* text-align: center; */
+}
+
+.indexPage .header .nav .logo {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+.indexPage .header .nav .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+
+.indexPage .header .nav .nav-links a {
+          color: white;
+          font-size: 1rem;
+        }
+
+.indexPage .header .nav .nav-links .login-btn {
+          background-color: white;
+          color: #4a90e2;
+          padding: 0.5rem 1.5rem;
+          border-radius: 20px;
+        }
+
+.indexPage .hero {
+    position: relative;
+    overflow: hidden; /* 避免背景图溢出 */
+    /* background-color: #72b2ed; */
+  }
+
+.indexPage .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保持图片比例，填充整个容器 */
+    z-index: -1; /* 让背景图片在底层 */
+}
+
+.indexPage .hero .nav {
+      padding: 0 5%;
+
+      position: relative;
+      height: 60vw;
+      max-height: 80vh;
+      min-height: 400px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+.indexPage .hero .nav .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+        transform: translateY(-50%);
+        color: white;
+      }
+
+.indexPage .hero .nav .hero-content h1 {
+    font-family: 'fzdhjt', sans-serif;
+    position: relative;
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+    max-width: 600px;  
+    right: -600px;
+}
+
+.indexPage .hero .nav .hero-content p {
+    font-family: 'corbel', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: 1.5rem;
+    /* margin-bottom: -1.5rem; */
+    max-width: 750px;
+    line-height: 1.6;
+    right: -480px;
+  }
+
+.focuscolor {
+  font-weight: bold;
+  color: #1777ff; /* 文字颜色 */
+}
+
+.indexPage .hero .nav .hero-content .cta-button {
+          display: flex;
+          position: relative;
+          background-color: #fcd054;
+          color: #4a90e2;
+          font-weight: bold;
+          max-width: 160px;
+          height: 65px;
+          overflow: hidden;
+          right: -740px;
+          bottom: -50px;
+        }
+
+.indexPage .hero .nav .hero-content .cta-button img {
+  width: 100%;
+}
+
+.indexPage .hero .nav .hero-content .bottom_title {
+    font-family: 'fzdhjt', sans-serif;
+    color: #c63ffd;
+    font-weight: bold;
+    /* position: relative; */
+    font-size: 1.3rem;
+    /* margin-bottom: -1.5rem; */
+    max-width: 750px;
+    line-height: 1.6;
+    right: -540px;
+    bottom: -120px;
+}
+
+.indexPage .hero .nav .hero-image {
+        position: absolute;
+        top: calc(50% + 15px);
+        left: calc(15% - 60px) ;
+        /* right: -150px; */
+        transform: translateY(-50%);
+        width: 23vw;
+        max-width: 900px;
+        transition: all 0.5s;
+      }
+
+.indexPage .hero .nav .hero-image img {
+  width: 100%;
+}
+
+.indexPage .service-features {
+    position: relative;
+    overflow: hidden; /* 避免背景图溢出 */
+    background-color: #000;
+    padding: 4rem 5%;
+  }
+
+  .indexPage .service-features .backgroundimg{
+    max-width: calc(70% - 30px);
+    width: 100%;
+    height: auto; /* 保持图片比例 */
+    display: block; /* 使 margin: auto 生效 */
+    margin: 0 auto; /* 水平居中 */
+  }
+
+  .indexPage .service-features .content{
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+  }
+
+  .indexPage .service-features .content .title1{
+    position: absolute;
+    width: 7%;
+    top: -515px;
+    left: -365px; /* 可根据需要调整左右位置 */
+  }
+
+  .indexPage .service-features .content .title2{
+    position: absolute;
+    width: 7%;
+    top: -540px;
+    left: 240px; /* 可根据需要调整左右位置 */
+  }
+
+  .indexPage .service-features .content .title3{
+    position: absolute;
+    width: 7%;
+    top: -155px;
+    left: 0px; /* 可根据需要调整左右位置 */
+  }
+
+  .indexPage .service-features .content .des{
+    position: relative;
+    color: #ffffff;
+    font-family: 'corbel', 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* margin-bottom: -1.5rem; */
+    max-width: 700px;                                                                                                        
+    line-height: 1.6;
+    top: -400px;
+    left: -350px;
+  }
+
+  #indexPage .services{
+    max-width: 100%;
+    background-color: black;
+    /* left: 50%; */
+    text-align: center;
+  }
+
+  /* PC端布局，横向平铺 */
+  .indexPage .services .feature-container {
+    display: flex;
+    overflow: hidden; /* PC端不滚动 */
+    gap: 2rem;
+    justify-content: center; /* 水平居中 */
+    align-items: center;     /* 垂直居中 */
+  }
+
+  .indexPage .services .header-title h1 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'fzcchjt';
+  }
+
+  .indexPage .services .header-title img {
+    width: 9%;
+    margin: 2% auto 5% auto;
+  }
+
+  .indexPage .services .feature-container .feature-card{
+    width: 190px;
+  }
+
+  .indexPage .services .feature-container .feature-card .feature-icon {
+    position: relative; /* 作为 h3 和 p 的定位基准 */
+  }
+
+    /* 卡片基础样式 */
+  .indexPage .services .feature-container .feature-card .feature-icon img {
+    width: 100%; /* 让图片填满容器宽度 */
+    height: auto; /* 保持图片比例 */
+  }
+
+  .indexPage .services .feature-container .feature-card .feature-icon h3 {
+    color: #000;
+    position: absolute; /* 绝对定位 */
+    font-family: 'fzdhjt';
+    /* font-family: 'Arial Black', sans-serif; */
+    font-weight: 900;
+    font-size: 1.5rem;
+    left: 50%; /* 水平方向居中 */
+    top: 42%;
+    transform: translateX(-50%); /* 修正居中偏移 */
+    z-index: 1; /* 确保文本在图片之上 */
+    text-align: center; /* 文本居中 */
+    line-height: 1.3;
+    -webkit-text-stroke: 1px #000; /* 2px宽度的白色描边 */
+  }
+
+  .indexPage .services .feature-container .feature-card .feature-icon p {
+    color: #000;
+    position: absolute; /* 绝对定位 */
+    font-family: 'corbel';
+    font-size: 0.82rem;
+    font-weight: bold;
+    left: 50%; /* 水平方向居中 */
+    top: 65%;
+    width: 165px;
+    transform: translateX(-50%); /* 修正居中偏移 */
+    z-index: 1; /* 确保文本在图片之上 */
+    text-align: center; /* 文本居中 */
+    line-height: 1.5;
+  }
+  
+
+.indexPage .service-features .features-description {
+      text-align: center;
+      max-width: 950px;
+      margin: 2rem auto;
+      color: #666;
+      font-size: 1.6rem;
+      line-height: 1.6;
+    }
+
+.indexPage .why-gyh {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between; /* 水平居中对齐 */
+  align-items: center; /* 垂直居中对齐 */
+  min-height: 600px; /* 设置最小高度 */
+}
+
+.indexPage .why-gyh .leftc{
+  display: flex;
+  flex-direction: column;
+  transform: translateX(50%) translateY(6%);
+}
+
+.indexPage .why-gyh .leftc h3{
+  font-family: 'fzcchjt';
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.indexPage .why-gyh .leftc .des{
+  display: flex;
+  flex-direction: column;
+  gap: 21px; 
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.indexPage .why-gyh .leftc .des h1 {
+  font-family: 'fzdhjt';
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #f93d66;
+}
+
+.indexPage .why-gyh .leftc .des p {
+  font-family: 'corbel';
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: -10px;
+}
+
+.indexPage .why-gyh .rightc{
+  max-width: calc(658px*0.55) ;
+  transform: translateX(-98%) translateY(5%);
+}
+
+.indexPage .why-gyh .rightc img{
+  width: 100%;
+  /* height: auto; */
+}
+
+
+.indexPage .our-mission {
+    background-color: #000;
+    padding: 4rem 5%;
+  }
+
+.indexPage .our-mission .mission-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    /* gap: 4rem; */
+  }
+
+
+  .indexPage .our-mission .mission-container .mission-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 可选：垂直居中图片 */
+    margin-top: -10px;
+  }
+  
+  .indexPage .our-mission .mission-container .mission-content img {
+    width: 70%;  /* 设定图片宽度百分比 */
+    max-width: 905px; /* 最大宽度，防止图片过大 */
+    height: auto;  /* 保持图片比例 */
+  }
+
+.indexPage .our-mission .mission-container .mission-image {
+    flex: 1;
+    margin-bottom: -65px;
+  }
+
+.indexPage .our-mission .mission-container .mission-image img {
+    width: 100%; /* 设定原始宽度 */
+    height: auto; /* 设定原始高度 */
+    object-fit: contain; /* 保持完整尺寸，不裁剪 */
+    -o-object-fit: cover;
+        object-fit: cover;
+  }
+
+/* 
+.indexPage .our-mission .mission-container .mission-content h1 {
+            font-family: 'fzcchjt';
+            text-align: center;
+            font-weight: bold;
+            color: #ffffff;
+            font-size: 3rem;
+            font-weight: bold;
+          }
+
+.indexPage .our-mission .mission-container .mission-content .c1 {
+      text-align: center;
+      color: #f93d66;
+      font-size: 1.1rem;
+      line-height: 1.8;
+}
+.indexPage .our-mission .mission-container .mission-content .c2 {
+      text-align: center;
+      color: #666;
+      font-size: 1.1rem;
+      line-height: 1.8;
+}
+.indexPage .our-mission .mission-container .mission-content .c3 {
+      text-align: center;
+      color: #666;
+      font-size: 1.1rem;
+      line-height: 1.8;
+} */
+
+.indexPage .our-mission .mission-container .mission-content .mission-decoration {
+          position: relative;
+          right: 0px;
+          bottom: 0px;
+        }
+
+.indexPage .contact-form {
+    background-color: #4a90e2;
+    background: url('/assets/contactus/di.png');
+    background-size: cover;
+    background-position: center center; /* 背景图片居中 */
+    background-repeat: no-repeat; /* 防止背景图片重复 */
+    
+    padding: 4rem 5%;
+    color: white;
+  }
+
+.indexPage .contact-form .contact-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      /* display: flex; */
+      /* justify-content: space-between; */
+      gap: 4rem;
+    }
+
+.indexPage .contact-form .contact-container .contact-info {
+        flex: 1;
+        position: relative;
+      }
+
+.indexPage .contact-form .contact-container .contact-info .form-banner {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          max-width:40vw;
+          max-height: 50%;
+          background: url('/assets/contactus/formbanner.png') no-repeat center right;
+          background-size: contain;
+      }
+
+.indexPage .contact-form .contact-container .contact-info .logo {
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-bottom: 2rem;
+          display: block;
+        }
+
+.indexPage .contact-form .contact-container .contact-info p {
+          font-size: 1.2rem;
+          line-height: 1.8;
+          margin-bottom: 1.5rem;
+          opacity: 0.9;
+          font-weight: 300;
+        }
+
+.indexPage .contact-form .contact-container .contact-info p:first-of-type {
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+
+/* .indexPage .contact-form .contact-container .contact-info .contact-links {
+          margin-top: 2rem;
+        }
+
+.indexPage .contact-form .contact-container .contact-info .contact-links a {
+            color: white;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            transition: all 0.3s ease;
+            padding: 0.3rem 0;
+
+          }
+
+.indexPage .contact-form .contact-container .contact-info .contact-links a:hover {
+              opacity: 1;
+              transform: translateX(10px);
+          } */
+
+.indexPage .contact-form .contact-container .contact-info .contact-title{
+    margin-left: 25%;
+
+}
+
+.indexPage .contact-form .contact-container .form-container {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 5%;
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 20px;
+    order: -1;
+}
+
+.indexPage .contact-form .contact-container .form-container #contactForm {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.indexPage .contact-form .contact-container .form-container #contactForm .left {
+  flex: 1;
+  margin-bottom: 1.5rem;
+  min-width: 550px;
+  
+  /* background-color: red; */
+}
+
+.indexPage .contact-form .contact-container .form-container #contactForm .right {
+
+  flex: 1;
+  margin-bottom: 1.5rem;
+  min-width: 550px;
+  /* background-color: blue; */
+}
+
+.indexPage .contact-form .contact-container .form-container .form-group label,.indexPage .contact-form .contact-container .form-container .form-group-right label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            opacity: 0.9;
+          }
+
+.indexPage .contact-form .contact-container .form-container .form-group input,.indexPage .contact-form .contact-container .form-container .form-group textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 8px;
+            background: white;
+            color: #333;
+            font-size: 1rem;
+          }
+
+.indexPage .contact-form .contact-container .form-container .right .form-group-right textarea {
+            height: 85px;
+            width: 550px;
+            resize: vertical;
+          }
+
+.indexPage .contact-form .contact-container .form-container .submit-btn {
+          background: #ffd700;
+          color: #333;
+          border: none;
+          padding: 1rem 2rem;
+          border-radius: 8px;
+          font-size: 1rem;
+          font-weight: bold;
+          cursor: pointer;
+          transition: background 0.3s ease;
+          width: 100%;
+        }
+
+.indexPage .contact-form .contact-container .form-container .submit-btn:hover {
+            background: #ffed4a;
+          }
+
+.indexPage .contact-form .contact-container .form-container .traffic-type,.indexPage .contact-form .contact-container .form-container .publisher-type {
+          display: flex;
+          gap: 2rem;
+          margin-bottom: 1rem;
+        }
+
+.indexPage .contact-form .contact-container .form-container .traffic-radio,.indexPage .contact-form .contact-container .form-container .publisher-radio {
+          display: none;
+        }
+
+.indexPage .contact-form .contact-container .form-container .traffic-label,.indexPage .contact-form .contact-container .form-container .publisher-label {
+          flex: 1;
+          background: white;
+          padding: 0.8rem 2rem;
+          text-align: center;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          color: #666;
+          font-size: 1rem;
+          width: 100px;
+        }
+
+.indexPage .contact-form .contact-container .form-container .traffic-radio:checked + .traffic-label {
+          background: #ffd700;
+          color: #333;
+          font-weight: bold;
+        }
+
+.indexPage .contact-form .contact-container .form-container .publisher-radio:checked + .publisher-label {
+          background: #ffd700;
+          color: #333;
+          font-weight: bold;
+        }
+
+/********************页底********************/
+.indexPage .site-footer {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 1rem 5%;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #444; /* 新增的分隔线 */
+}
+
+.indexPage .site-footer .contact-links {
+  /* display: flex;
+  flex-wrap: wrap; */
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  margin-bottom: 1%;
+}
+
+.indexPage .site-footer .contact-links a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.indexPage .site-footer .contact-links a:hover {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+
+.indexPage .site-footer .contact-links .footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #999;
+}
+
+/* .indexPage .site-footer .contact-links a.email {
+  display: block;
+  margin-top: 8px;
+} */

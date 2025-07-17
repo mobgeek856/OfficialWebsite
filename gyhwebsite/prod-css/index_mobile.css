@@ -1,0 +1,972 @@
+
+
+  @media screen and (max-width: 1200px) {
+      #indexPage .threeDGameGridBox .game-item,#indexPage .AdventureGameGridBox .game-item,#indexPage .BoysGameGridBox .game-item {
+        width: calc(100% / 4);
+      }
+        #indexPage .threeDGameGridBox .game-item:nth-last-child(-n + 4) {
+          display: none;
+        }
+        #indexPage .AdventureGameGridBox .game-item:nth-last-child(-n + 4) {
+          display: none;
+        }
+        #indexPage .BoysGameGridBox .game-item:nth-last-child(-n + 4) {
+          display: none;
+        }
+
+    #indexPage .header .nav .logo .logotxt{
+          font-size: 0.9rem;
+    }
+
+    #indexPage .hero {
+      padding: 6rem 5% 3rem;
+      text-align: center;
+    }
+
+      #indexPage .hero h1 {
+        font-size: 2rem;
+      }
+      #indexPage .hero p {
+        font-size: 1rem;
+      }
+      #indexPage .hero .hero-image {
+        top: 50%;
+        right: -50px;
+        width: 50vw;
+      }
+
+
+    #indexPage .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+    #indexPage .mission-container {
+      gap: 3rem;
+    }
+
+    #indexPage .services .feature-container {
+      overflow-x: auto; /* 横向滚动 */
+      scroll-snap-type: x mandatory; /* 添加滑动吸附效果 */
+      -webkit-overflow-scrolling: touch; /* 兼容iOS顺滑滚动 */
+      padding-bottom: 10px; /* 避免滚动条覆盖内容 */
+    }
+  
+    #indexPage .services .feature-container .feature-card {
+      scroll-snap-align: center; /* 每个卡片居中对齐 */
+      min-width: 80%; /* 保证每次滑动显示一个完整的卡片 */
+    }
+  }
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+    #indexPage .hero {
+      padding: 6rem 5% 3rem;
+      text-align: center;
+    }
+    #indexPage .hero h1 {
+      font-size: 2rem;
+      right: -380px;
+    }
+    #indexPage .hero p {
+      font-size: 1.2rem;
+      max-width: 550px;
+      right: -380px;
+    }
+
+    #indexPage .hero .hero-image {
+      max-width: 400px;
+      top: calc(50% - 0px);
+      left: calc(15% - 100px) ;
+    }
+
+    #indexPage .hero .nav .hero-content .cta-button {
+      right: -580px;
+    }
+
+    #indexPage .service-features .content{
+      display: flex;
+      position: relative;
+      top: 50%;
+      left: 50%;
+    }
+    
+    #indexPage .service-features {
+      top: -1px;
+      max-height: 700px;
+    }
+
+    #indexPage .service-features .backgroundimg{
+      max-width: 120%;
+    }
+
+    #indexPage .service-features .content .title1{
+      position: absolute;
+      width: 9%;
+      top: -460px;
+      left: -285px;
+    }
+  
+    #indexPage .service-features .content .title2{
+      position: absolute;
+      width: 9%;
+      top: -475px;
+      left: 200px;
+    }
+  
+    #indexPage .service-features .content .title3{
+      position: absolute;
+      width: 9%;
+      top: -130px;
+      left: 0px;
+    }
+
+    #indexPage .service-features .content .des{
+      max-width: 600px;   
+      font-size: 1.5rem;
+      top: -350px;
+      left: -275px;
+    }
+
+    #indexPage .services .feature-container {
+      overflow-x: auto; /* 横向滚动 */
+      scroll-snap-type: x mandatory; /* 添加滑动吸附效果 */
+      -webkit-overflow-scrolling: touch; /* 兼容iOS顺滑滚动 */
+      padding-bottom: 10px; /* 避免滚动条覆盖内容 */
+    }
+  
+    #indexPage .services .feature-container .feature-card {
+      scroll-snap-align: center; /* 每个卡片居中对齐 */
+      min-width: 80%; /* 保证每次滑动显示一个完整的卡片 */
+    }
+}
+
+/* 核心处理 */
+@media screen and (max-width: 1000px) {
+
+      #indexPage .header .nav .logo .logoimg{
+          margin-left: 25px;
+      }
+      #indexPage .header .nav .logo .logotxt{
+          font-size: 0.9rem;
+      }
+
+      #indexPage .hero-content h1 {
+        max-width: 100%;
+        font-size: 2rem;
+        right: 0px;
+      }
+      #indexPage .hero-content p {
+        max-width: 100%;
+        right: 0px;
+      }
+    #indexPage .hero-image {
+      display: none;
+    }
+    #indexPage .cta-button {
+      margin: 0 auto;
+      max-width: 135px;
+      height: 50px;
+      right: 0px;
+      bottom: -30px;
+    }
+
+    #indexPage .hero .nav .hero-content .bottom_title {
+      font-size: 0.77rem;
+      bottom: -70px;
+    }
+
+    #indexPage .contact-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    #indexPage .service-features {
+      top: -1px;
+      padding: 2.2rem 0%;
+      height: 300px;
+    }
+
+    #indexPage .service-features .backgroundimg{
+      max-width: 500px;
+    }
+  
+    #indexPage .service-features .content{
+      left: 60%;
+    }
+  
+    #indexPage .service-features .content .title1{
+      width: 9%;
+      top: -300px;
+      left: -150px; /* 可根据需要调整左右位置 */
+    }
+  
+    #indexPage .service-features .content .title2{
+      width: 9%;
+      top: -305px;
+      left: 45px; /* 可根据需要调整左右位置 */
+    }
+  
+    #indexPage .service-features .content .title3{
+      width: 9%;
+      top: -165px;
+      left: -35px; /* 可根据需要调整左右位置 */
+    }
+
+    #indexPage .service-features .content .des {
+      font-size: 0.7rem;
+      max-width: 225px;
+      top: -260px;
+      left: -135px;
+    }
+
+    .indexPage .services .header-title h1 {
+      font-size: 2.5rem;
+    }
+
+    #indexPage .services .feature-container {
+      overflow-x: auto; /* 横向滚动 */
+      scroll-snap-type: x mandatory; /* 添加滑动吸附效果 */
+      -webkit-overflow-scrolling: touch; /* 兼容iOS顺滑滚动 */
+      padding-bottom: 10px; /* 避免滚动条覆盖内容 */
+    }
+  
+    #indexPage .services .feature-container .feature-card {
+      scroll-snap-align: center; /* 每个卡片居中对齐 */
+      min-width: 80%; /* 保证每次滑动显示一个完整的卡片 */
+    }
+ 
+
+    @media screen and (max-width: 800px) {
+      #indexPage .header .nav .logo .logoimg{
+        margin-left: 25px;
+      }
+      #indexPage .header .nav .logo .logotxt{
+        font-size: 0.8rem;
+      }
+        #indexPage .nav-links a:nth-child(1) {
+          display: none;
+        }
+        #indexPage .nav-links a:nth-child(2) {
+          display: none;
+        }
+      
+      #indexPage .mission-container {
+        flex-direction: column;
+        gap: 2rem;
+      }
+        #indexPage .mission-container .mission-image {
+          order: -1;
+          max-width: 500px;
+          margin: 0 auto;
+        }
+
+        #indexPage .mission-container .mission-content {
+          text-align: center;
+        }
+        #indexPage .contact-info .logo {
+          font-size: 1.5rem;
+        }
+        #indexPage .contact-info p {
+          font-size: 1rem;
+        }
+        #indexPage .contact-info p:first-of-type {
+          font-size: 1.1rem;
+          margin-bottom: 0rem;
+        }
+        #indexPage .contact-info .contact-links {
+          margin-top: 1rem;
+        }
+          #indexPage .contact-info .contact-links a {
+            font-size: 0.9rem;
+          }
+
+          #indexPage .contact-container {
+            flex-direction: column;
+            gap: 2rem;
+          }
+      
+          /* #indexPage .service-features .backgroundimg{
+            max-width: 200%;
+          }
+        
+          #indexPage .service-features .content{
+            left: 50%;
+          }
+        
+          #indexPage .service-features .content .title1{
+            top: -515px;
+            left: -365px;
+          }
+        
+          #indexPage .service-features .content .title2{
+            top: -540px;
+            left: 240px;
+          }
+        
+          #indexPage .service-features .content .title3{
+            top: -155px;
+            left: 0px;
+          } */
+
+          #indexPage .services .header-title h1 {
+            font-size: 2.5rem;
+          }
+
+          #indexPage .services .feature-container {
+            overflow-x: auto; /* 横向滚动 */
+            scroll-snap-type: x mandatory; /* 添加滑动吸附效果 */
+            -webkit-overflow-scrolling: touch; /* 兼容iOS顺滑滚动 */
+            padding-bottom: 10px; /* 避免滚动条覆盖内容 */
+          }
+        
+          #indexPage .services .feature-container .feature-card {
+            scroll-snap-align: center; /* 每个卡片居中对齐 */
+            min-width: 80%; /* 保证每次滑动显示一个完整的卡片 */
+          }
+      #indexPage .form-banner {
+        display: none;
+      }
+
+      @media screen and (max-width: 500px) {
+        
+        #indexPage .features-grid {
+          gap: 1rem;
+        }
+            #indexPage .features-grid .section-title h2 {
+              font-size: 2rem;
+            }
+          #indexPage .features-grid .feature-card {
+            padding: 1.5rem;
+          }
+            #indexPage .features-grid .feature-card .feature-icon {
+              width: 100px;
+              height: 100px;
+            }
+
+            #indexPage .features-grid .feature-card h3 {
+              font-size: 1rem;
+            }
+
+        #indexPage .features-description {
+          font-size: 1rem;
+          padding: 0 1rem;
+        }
+            #indexPage .our-mission .mission-content span {
+              font-size: 1.2rem;
+            }
+            #indexPage .our-mission .mission-content p {
+              font-size: 1rem;
+            }
+            
+            #indexPage .services{
+              margin-top: -2px;
+            }
+
+            #indexPage .services .header-title img {
+              width: 20%;
+            }
+
+            #indexPage .services .header-title h1 {
+              font-size: 2rem;
+            }
+
+            #indexPage .services .feature-container .feature-card .feature-icon img {
+              width: 55%; /* 让图片填满容器宽度 */
+              height: auto; /* 保持图片比例 */
+            }
+
+            #indexPage .services .feature-container {
+              display: flex;
+              overflow: hidden; /* PC端不滚动 */
+              gap: 1rem;
+              justify-content: left; /* 水平居中 */
+              overflow-x: auto; /* 横向滚动 */
+              scroll-snap-type: x mandatory; /* 添加滑动吸附效果 */
+              -webkit-overflow-scrolling: touch; /* 兼容iOS顺滑滚动 */
+              padding-bottom: 10px; /* 避免滚动条覆盖内容 */
+              margin-left: -60px;  /* 确保没有多余的间距 */
+            }
+          
+            #indexPage .services .feature-container .feature-card {
+              scroll-snap-align: start; /* 每个卡片居中对齐 */
+              min-width: 70%; /* 保证每次滑动显示一个完整的卡片 */
+              margin-right: -145px;
+            }
+
+            #indexPage .why-gyh .leftc{
+              transform: translateX(10%) translateY(16%);
+            }
+
+            #indexPage .why-gyh .leftc h3{
+              font-size: 1.8rem;
+            }
+
+            #indexPage .why-gyh .leftc .des h1 {
+              font-size: 1.5rem;
+            }
+
+            #indexPage .why-gyh .leftc .des p {
+              font-size: 0.9rem;
+              width: 210%;
+              line-height: 1.2rem;
+            }
+
+            #indexPage .why-gyh .rightc img{
+              width: 90%;
+              transform: translateX(115%) translateY(-75%);
+            }
+
+            #indexPage .our-mission .mission-container .mission-image {
+              width: 150%;
+              margin-left: -55px;
+            }
+
+            #indexPage .our-mission .mission-container .mission-content {
+              width: 150%;
+            }
+
+            #indexPage .contact-form .contact-container .contact-info .contact-title{
+              margin-top: -10%;
+              margin-left: 9%;
+              width: 85%;
+            }
+
+            #indexPage .contact-form .contact-container .form-container #contactForm {
+              display: block;
+             
+            }
+
+            #indexPage .contact-form .contact-container .form-container #contactForm .left {
+              margin-bottom: 1.5rem;
+              min-width: 100%;
+              
+              /* background-color: red; */
+            }
+
+            #indexPage .contact-form .contact-container .form-container .form-group input,#indexPage .contact-form .contact-container .form-container .form-group textarea {
+              width: 50%;
+              padding: 0.7rem;
+            }
+
+            #indexPage .contact-form .contact-container .form-container .right .form-group-right textarea {
+              width: 50%;
+            }
+
+            #indexPage .contact-form .contact-container .form-container .submit-btn{
+              width: 50%;
+              margin-top: 2%;
+            }
+            
+            #indexPage .contact-form .contact-container .form-container .traffic-type,
+            #indexPage .contact-form .contact-container .form-container .publisher-type {
+              display: flex;
+              justify-content: space-between; /* 或 space-evenly */
+              align-items: center;
+              width: 50%;
+              gap: 1rem;
+            }
+
+            #indexPage .site-footer .contact-links a.email {
+              margin-top: 10px;
+            }
+
+            #indexPage .site-footer .footer-bottom{
+              padding-top: 3%;
+            }
+           
+        #indexPage .header .nav .logo .logotxt{
+            font-size: 0.7rem;
+        }
+        
+        #indexPage .font1 {
+          font-size: 1rem;
+          font-weight: 300;
+        }
+        #indexPage .font2 {
+          font-size: 0.6rem;
+          font-weight: 400;
+        }
+        #indexPage .font3 {
+          font-size: 1rem;
+          font-weight: 500;
+        }
+        #indexPage .font4 {
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+        #indexPage .font5 {
+          font-size: 4rem;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+
+
+  @media screen and (min-width: 810px) and (max-width: 900px) {
+    #indexPage .hero .nav .hero-content{
+      top: 42%;
+    }
+  
+    #indexPage .hero-content h1 {
+      max-width: 100%;
+      font-size: 3rem;
+      right: 0px;
+    }
+    #indexPage .hero-content p {
+      max-width: 100%;
+      font-size: 1.5rem;
+      right: 0px;
+    }
+  
+    #indexPage .hero .nav .hero-content .bottom_title {
+      font-size: 1.3rem;
+    }
+  
+    #indexPage .service-features{
+      padding: 0% 0% 0%;
+      height: auto;
+    }
+  
+    #indexPage .service-features .backgroundimg{
+      max-width: 100%;
+      width: 90%;
+      margin: 0% auto -5%; /* 水平居中 */
+    }
+  
+    #indexPage .service-features .content{
+      left: 50%;
+    }
+  
+    #indexPage .service-features .content .title1{
+      width: 12%;
+      top: -330px;
+      left: -230px; /* 可根据需要调整左右位置 */
+    }
+  
+    #indexPage .service-features .content .title2{
+      width: 12%;
+      top: -335px;
+      left: 145px; /* 可根据需要调整左右位置 */
+    }
+  
+    #indexPage .service-features .content .title3{
+      width: 12%;
+      top: -85px;
+      left: -25px; /* 可根据需要调整左右位置 */
+    }
+  
+    #indexPage .service-features .content .des{
+      max-width: 450px;   
+      font-size: 1.1rem;
+      top: -215px;
+      left: -190px;
+    }
+
+    #indexPage .services{
+      max-width: 100%;
+      background-color: black;
+      /* left: 50%; */
+      text-align: center;
+    }
+
+    #indexPage .services{
+      margin-top: -1px;
+    }
+
+    #indexPage .services .header-title img {
+      width: 20%;
+    }
+
+    #indexPage .services .header-title h1 {
+      font-size: 3.5rem;
+    }
+
+    #indexPage .services .feature-container .feature-card .feature-icon img {
+      width: 45%; /* 让图片填满容器宽度 */
+      height: auto; /* 保持图片比例 */
+    }
+
+    #indexPage .services .feature-container {
+      display: flex;
+      overflow-x: auto; /* 横向滚动 */
+      scrollbar-width: none; /* Firefox 隐藏滚动条 */
+      -ms-overflow-style: none; /* IE 隐藏滚动条 */
+      -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x mandatory;
+      gap: 1rem;
+      justify-content: flex-start;
+      padding-bottom: 10px;
+      margin-left: -175px;
+    }
+  
+    #indexPage .services .feature-container .feature-card {
+      scroll-snap-align: start; /* 每个卡片居中对齐 */
+      min-width: 67%; /* 保证每次滑动显示一个完整的卡片 */
+      margin-right: -355px;
+    }
+
+    #indexPage .services .feature-container .feature-card .feature-icon h3 {
+      font-size: 1.7rem;
+      width: 150px;
+    }
+
+    #indexPage .services .feature-container .feature-card .feature-icon p {
+      font-size: 1.3rem;
+      width: 265px;
+    }
+
+    .indexPage .why-gyh{
+      height: 650px; /* 设置最小高度 */
+    }
+
+    #indexPage .why-gyh .leftc{
+      transform: translateX(10%) translateY(10%);
+    }
+
+    #indexPage .why-gyh .leftc h3{
+      margin-top: 15%;
+      font-size: 4rem;
+    }
+
+    #indexPage .why-gyh .leftc .des h1 {
+      font-size: 2.5rem;
+    }
+
+    #indexPage .why-gyh .leftc .des p {
+      font-size: 1.2rem;
+      width: 210%;
+      line-height: 1.2rem;
+    }
+
+    #indexPage .why-gyh .rightc img{
+      width: 70%;
+      transform: translateX(160%) translateY(-50%);
+    }
+
+    #indexPage .our-mission {
+      margin-top: 0%;
+    }
+
+    #indexPage .our-mission .mission-container .mission-content img {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    #indexPage .our-mission .mission-container .mission-image{
+      margin-top: 0%;
+      margin-bottom: -100px;
+      z-index: 999;
+    }
+
+    #indexPage .our-mission .mission-container .mission-image img {
+      width: 140%;
+      margin-left: -20%;
+    }
+
+    #indexPage .contact-form .contact-container .form-container {
+      max-width: 1200px;
+      margin-top: 5%;
+      order: -1;
+    }
+    
+    #indexPage .contact-form .contact-container .form-container .left {
+      margin-bottom: 1.5rem;
+      min-width: 350px;
+      width: 30%;
+      /* background-color: red; */
+    }
+    
+    #indexPage .contact-form .contact-container .form-container .right {
+      margin-bottom: 1.5rem;
+      min-width: 350px;
+      width: 50%;
+      margin-left: -40%;
+      /* background-color: blue; */
+    }
+
+    #indexPage .contact-form .contact-container .contact-info .contact-title{
+      margin-left: 5%;
+    }
+
+    #indexPage .contact-form .contact-container .form-container .form-group input,#indexPage .contact-form .contact-container .form-container .form-group textarea {
+      width: 40%;
+      padding: 0.9rem;
+    }
+
+    #indexPage .contact-form .contact-container .form-container .right .form-group-right textarea {
+      width: 40%;
+    }
+
+    #indexPage .contact-form .contact-container .form-container .submit-btn{
+      width: 40%;
+      margin-top: 2%;
+    }
+    
+    #indexPage .contact-form .contact-container .form-container .traffic-type,
+    #indexPage .contact-form .contact-container .form-container .publisher-type {
+      display: flex;
+      justify-content: space-between; /* 或 space-evenly */
+      align-items: center;
+      width: 40%;
+      gap: 1rem;
+    }
+
+
+
+    #indexPage .site-footer .contact-links a  {
+      font-size: 1.2rem;
+    }
+
+    #indexPage .site-footer .footer-bottom {
+      padding-top: 5px;
+      font-size: 1.1rem;
+    }
+  }
+
+  @media screen and (min-width:1000px) and (max-width: 1050px) and (min-height: 1000px) and (max-height: 1500px){
+    #indexPage .hero .nav .hero-content{
+      top: 42%;
+    }
+    
+    #indexPage .hero-image {
+      display: none;
+    }
+
+    #indexPage .hero-content h1 {
+      max-width: 100%;
+      font-size: 4rem;
+      right: 0px;
+    }
+    #indexPage .hero-content p {
+      max-width: 100%;
+      font-size: 2rem;
+      right: 0px;
+    }
+
+    #indexPage .hero .nav .hero-content .cta-button {
+      right: -380px;
+    }
+  
+    #indexPage .hero .nav .hero-content .bottom_title {
+      font-size: 1.6rem;
+      bottom: -90px;
+    }
+  
+    #indexPage .service-features{
+      /* padding: 0% 0% 0%; */
+      height: 700px;
+    }
+  
+    #indexPage .service-features .backgroundimg{
+      max-width: 100%;
+      width: 100%;
+      margin: 0% auto 5%; /* 水平居中 */
+    }
+  
+    #indexPage .service-features .content{
+      left: 50%;
+    }
+  
+    #indexPage .service-features .content .title1{
+      width: 11%;
+      top: -800px;
+      left: -270px; /* 可根据需要调整左右位置 */
+    }
+  
+    #indexPage .service-features .content .title2{
+      width: 11%;
+      top: -810px;
+      left: 170px; /* 可根据需要调整左右位置 */
+    }
+  
+    #indexPage .service-features .content .title3{
+      width: 11%;
+      top: -470px;
+      left: -25px; /* 可根据需要调整左右位置 */
+    }
+  
+    #indexPage .service-features .content .des{
+      max-width: 475px;   
+      font-size: 1.65rem;
+      top: -680px;
+      left: -205px;
+    }
+
+    #indexPage .services{
+      max-width: 100%;
+      background-color: black;
+      /* left: 50%; */
+      text-align: center;
+    }
+
+    #indexPage .services{
+      margin-top: -1px;
+    }
+
+    #indexPage .services .header-title img {
+      width: 20%;
+    }
+
+    #indexPage .services .header-title h1 {
+      font-size: 5rem;
+    }
+
+    #indexPage .services .feature-container .feature-card .feature-icon img {
+      width: 45%; /* 让图片填满容器宽度 */
+      height: auto; /* 保持图片比例 */
+    }
+
+    #indexPage .services .feature-container {
+      display: flex;
+      overflow-x: auto; /* 横向滚动 */
+      scrollbar-width: none; /* Firefox 隐藏滚动条 */
+      -ms-overflow-style: none; /* IE 隐藏滚动条 */
+      -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x mandatory;
+      gap: 1rem;
+      justify-content: flex-start;
+      padding-bottom: 20px;
+      margin-left: -175px;
+    }
+  
+    #indexPage .services .feature-container .feature-card {
+      scroll-snap-align: start; /* 每个卡片居中对齐 */
+      min-width: 62%; /* 保证每次滑动显示一个完整的卡片 */
+      margin-right: -380px;
+    }
+
+    #indexPage .services .feature-container .feature-card .feature-icon h3 {
+      font-size: 2.3rem;
+      width: 215px;
+    }
+
+    #indexPage .services .feature-container .feature-card .feature-icon p {
+      font-size: 1.6rem;
+      width: 265px;
+    }
+
+    .indexPage .why-gyh{
+      height: 650px; /* 设置最小高度 */
+    }
+
+    #indexPage .why-gyh .leftc{
+      transform: translateX(10%) translateY(10%);
+    }
+
+    #indexPage .why-gyh .leftc h3{
+      margin-top: 15%;
+      font-size: 4.5rem;
+    }
+
+    #indexPage .why-gyh .leftc .des h1 {
+      font-size: 2.3rem;
+    }
+
+    #indexPage .why-gyh .leftc .des p {
+      font-size: 1.6rem;
+      width: 210%;
+      line-height: 1.2rem;
+    }
+
+    #indexPage .why-gyh .rightc img{
+      width: 85%;
+      transform: translateX(110%) translateY(-45%);
+    }
+
+    #indexPage .our-mission {
+      margin-top: 0%;
+    }
+
+    #indexPage .our-mission .mission-container .mission-content img {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    #indexPage .our-mission .mission-container .mission-image{
+      margin-top: 0%;
+      margin-bottom: -100px;
+      z-index: 999;
+    }
+
+    #indexPage .our-mission .mission-container .mission-image img {
+      width: 140%;
+      margin-left: -20%;
+    }
+
+    #indexPage .contact-form .contact-container .form-container {
+      max-width: 1200px;
+      margin-top: 5%;
+      order: -1;
+    }
+    
+    #indexPage .contact-form .contact-container .form-container .left {
+      margin-bottom: 1.5rem;
+      min-width: 450px;
+      width: 50%;
+      /* background-color: red; */
+    }
+    
+    #indexPage .contact-form .contact-container .form-container .right {
+      margin-bottom: 1.5rem;
+      min-width: 450px;
+      width: 50%;
+      margin-left: -28%;
+      /* background-color: blue; */
+    }
+
+    #indexPage .contact-form .contact-container .contact-info .contact-title{
+      margin-left: 15%;
+    }
+
+    #indexPage .contact-form .contact-container .form-container .form-group label,#indexPage .contact-form .contact-container .form-container .form-group-right label {
+      font-size: 1.5rem;
+    }
+
+    #indexPage .contact-form .contact-container .form-container .form-group input,#indexPage .contact-form .contact-container .form-container .form-group textarea {
+      font-size: 2rem;
+      width: 55%;
+      padding: 1rem;
+    }
+
+    #indexPage .contact-form .contact-container .form-container .right .form-group-right textarea {
+      width: 60%;
+      height: 150px;
+    }
+
+    #indexPage .contact-form .contact-container .form-container .submit-btn{
+      width: 60%;
+      font-size: 1.8rem;
+      margin-top: 2%;
+      height: 13%;
+    }
+    
+    #indexPage .contact-form .contact-container .form-container .traffic-type,
+    #indexPage .contact-form .contact-container .form-container .publisher-type {
+      display: flex;
+      justify-content: space-between; /* 或 space-evenly */
+      align-items: center;
+      width: 61%;
+      padding: 0.4rem;
+    }
+
+    #indexPage .contact-form .contact-container .form-container .traffic-radio:checked + .traffic-label {
+      font-size: 1.5rem;
+    }
+
+    #indexPage .contact-form .contact-container .form-container .publisher-radio:checked + .publisher-label {
+      font-size: 1.5rem;
+    }
+
+
+    #indexPage .site-footer .contact-links a  {
+      font-size: 1.6rem;
+    }
+
+    #indexPage .site-footer .footer-bottom {
+      padding-top: 5px;
+      font-size: 1.3rem;
+    }
+  }
+  #indexPage .services .feature-container::-webkit-scrollbar {
+    display: none; /* Chrome/Safari 隐藏滚动条 */
+  }

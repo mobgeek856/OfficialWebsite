@@ -1,0 +1,395 @@
+@import url("./main.css");
+@import "index_mobile.css";
+
+.indexPage {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.indexPage .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+.indexPage .header .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 5%;
+    }
+
+.indexPage .header .nav .logo {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+.indexPage .header .nav .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+
+.indexPage .header .nav .nav-links a {
+          color: white;
+          font-size: 1rem;
+        }
+
+.indexPage .header .nav .nav-links .login-btn {
+          background-color: white;
+          color: #4a90e2;
+          padding: 0.5rem 1.5rem;
+          border-radius: 20px;
+        }
+
+.indexPage .hero {
+    background-color: #72b2ed;
+  }
+
+.indexPage .hero .nav {
+      padding: 0 5%;
+
+      position: relative;
+      height: 60vw;
+      max-height: 80vh;
+      min-height: 400px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+.indexPage .hero .nav .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+        transform: translateY(-50%);
+        color: white;
+      }
+
+.indexPage .hero .nav .hero-content h1 {
+          font-size: 2.5rem;
+          margin-bottom: 1.5rem;
+          max-width: 600px;
+        }
+
+.indexPage .hero .nav .hero-content p {
+          font-size: 1.1rem;
+          margin-bottom: 2rem;
+          max-width: 500px;
+          line-height: 1.6;
+        }
+
+.indexPage .hero .nav .hero-content .cta-button {
+          display: flex;
+          background-color: #fcd054;
+          color: #4a90e2;
+          border-radius: calc(infinity * 1px);
+          font-weight: bold;
+          max-width: 100px;
+          height: 50px;
+          overflow: hidden;
+        }
+
+.indexPage .hero .nav .hero-content .cta-button img{
+            width: 100%;
+          }
+
+.indexPage .hero .nav .hero-image {
+        position: absolute;
+        top: calc(50% + 50px);
+        right: -150px;
+        transform: translateY(-50%);
+        width: 70vw;
+        max-width: 900px;
+        transition: all 0.5s;
+      }
+
+.indexPage .hero .nav .hero-image img {
+          width: 100%;
+        }
+
+.indexPage .service-features {
+    padding: 4rem 5%;
+  }
+
+.indexPage .service-features .section-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-top: 50px;
+    }
+
+.indexPage .service-features .section-title h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        color: #4361ee;
+      }
+
+.indexPage .service-features .section-title .decoration {
+        width: 40%;
+      }
+
+.indexPage .service-features .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+.indexPage .service-features .features-grid .feature-card {
+        background: #fff;
+        border-radius: 20px;
+        padding: 1rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+      }
+
+.indexPage .service-features .features-grid .feature-card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+.indexPage .service-features .features-grid .feature-card .feature-icon {
+          width: 200px;
+          height: 200px;
+          margin: 20px auto;
+        }
+
+.indexPage .service-features .features-grid .feature-card .feature-icon img {
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+               object-fit: cover;
+            border-radius: 20px;
+          }
+
+.indexPage .service-features .features-grid .feature-card h3 {
+          color: #2e5efe;
+          font-size: 1.3rem;
+          margin-bottom: 0.8rem;
+          font-weight: 600;
+        }
+
+.indexPage .service-features .features-description {
+      text-align: center;
+      max-width: 950px;
+      margin: 2rem auto;
+      color: #666;
+      font-size: 1.6rem;
+      line-height: 1.6;
+    }
+
+.indexPage .our-mission {
+    padding: 6rem 5%;
+  }
+
+.indexPage .our-mission .mission-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+    }
+
+.indexPage .our-mission .mission-container .mission-image {
+        flex: 1;
+      }
+
+.indexPage .our-mission .mission-container .mission-image img {
+          width: 100%;
+          height: auto;
+          -o-object-fit: cover;
+             object-fit: cover;
+        }
+
+.indexPage .our-mission .mission-container .mission-content {
+        flex: 1;
+        padding-right: 2rem;
+      }
+
+.indexPage .our-mission .mission-container .mission-content p span {
+            color: #4361ee;
+            font-size: 2.5rem;
+            font-weight: bold;
+          }
+
+.indexPage .our-mission .mission-container .mission-content p {
+          color: #666;
+          font-size: 1.1rem;
+          line-height: 1.8;
+        }
+
+.indexPage .our-mission .mission-container .mission-content .mission-decoration {
+          position: relative;
+          right: 0px;
+          bottom: 0px;
+        }
+
+.indexPage .contact-form {
+    background-color: #4a90e2;
+    padding: 4rem 5%;
+    color: white;
+  }
+
+.indexPage .contact-form .contact-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 4rem;
+    }
+
+.indexPage .contact-form .contact-container .contact-info {
+        flex: 1;
+        position: relative;
+      }
+
+.indexPage .contact-form .contact-container .contact-info .form-banner {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          max-width:40vw;
+          max-height: 50%;
+          background: url('./assets/img/formbanner.png') no-repeat center right;
+          background-size: contain;
+      }
+
+.indexPage .contact-form .contact-container .contact-info .logo {
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-bottom: 2rem;
+          display: block;
+        }
+
+.indexPage .contact-form .contact-container .contact-info p {
+          font-size: 1.2rem;
+          line-height: 1.8;
+          margin-bottom: 1.5rem;
+          opacity: 0.9;
+          font-weight: 300;
+        }
+
+.indexPage .contact-form .contact-container .contact-info p:first-of-type {
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+
+.indexPage .contact-form .contact-container .contact-info .contact-links {
+          margin-top: 2rem;
+        }
+
+.indexPage .contact-form .contact-container .contact-info .contact-links a {
+            color: white;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            transition: all 0.3s ease;
+            padding: 0.3rem 0;
+
+          }
+
+.indexPage .contact-form .contact-container .contact-info .contact-links a:hover {
+              opacity: 1;
+              transform: translateX(10px);
+          }
+
+.indexPage .contact-form .contact-container .form-container {
+        flex: 1;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 2rem;
+        border-radius: 20px;
+        order: -1;
+      }
+
+.indexPage .contact-form .contact-container .form-container .form-group {
+          margin-bottom: 1.5rem;
+        }
+
+.indexPage .contact-form .contact-container .form-container .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            opacity: 0.9;
+          }
+
+.indexPage .contact-form .contact-container .form-container .form-group input,.indexPage .contact-form .contact-container .form-container .form-group textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 8px;
+            background: white;
+            color: #333;
+            font-size: 1rem;
+          }
+
+.indexPage .contact-form .contact-container .form-container .form-group textarea {
+            height: 120px;
+            resize: vertical;
+          }
+
+.indexPage .contact-form .contact-container .form-container .submit-btn {
+          background: #ffd700;
+          color: #333;
+          border: none;
+          padding: 1rem 2rem;
+          border-radius: 8px;
+          font-size: 1rem;
+          font-weight: bold;
+          cursor: pointer;
+          transition: background 0.3s ease;
+          width: 100%;
+        }
+
+.indexPage .contact-form .contact-container .form-container .submit-btn:hover {
+            background: #ffed4a;
+          }
+
+.indexPage .contact-form .contact-container .form-container .traffic-type,.indexPage .contact-form .contact-container .form-container .publisher-type {
+          display: flex;
+          gap: 1rem;
+          margin-bottom: 1rem;
+        }
+
+.indexPage .contact-form .contact-container .form-container .traffic-radio,.indexPage .contact-form .contact-container .form-container .publisher-radio {
+          display: none;
+        }
+
+.indexPage .contact-form .contact-container .form-container .traffic-label,.indexPage .contact-form .contact-container .form-container .publisher-label {
+          flex: 1;
+          background: white;
+          padding: 0.8rem 2rem;
+          text-align: center;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          color: #666;
+          font-size: 1rem;
+        }
+
+.indexPage .contact-form .contact-container .form-container .traffic-radio:checked + .traffic-label {
+          background: #ffd700;
+          color: #333;
+          font-weight: bold;
+        }
+
+.indexPage .contact-form .contact-container .form-container .publisher-radio:checked + .publisher-label {
+          background: #ffd700;
+          color: #333;
+          font-weight: bold;
+        }
