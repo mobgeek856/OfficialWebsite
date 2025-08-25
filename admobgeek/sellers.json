@@ -2,10 +2,52 @@
   "version": "1.0",
   "sellers": [
     {
-      "seller_id": "12",
-      "name": "Felixads",
-      "domain": "felixads.com",
-      "seller_type": "BOTH"
+      "seller_id": "8",
+      "name": "Eyydfun",
+      "domain": "admobgeek.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "seller_id": "18",
+      "name": "Ming Yan",
+      "domain": "Mingyan.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "seller_id": "30",
+      "name": "Milkywase",
+      "domain": "milkywase.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "seller_id": "37",
+      "name": "Admixer SSP",
+      "domain": "admixer.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "seller_id": "35",
+      "name": "BidFuse",
+      "domain": "bidfuse.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "seller_id": "16",
+      "name": "Signaasat",
+      "domain": "signaasat.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "seller_id": "29",
+      "name": "Vlion",
+      "domain": "advlion.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "seller_id": "7",
+      "name": "Doubleclick",
+      "domain": "admobgeek.com",
+      "seller_type": "INTERMEDIARY"
     },
     {
       "seller_id": "26",
@@ -20,21 +62,15 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "12",
+      "name": "Felixads",
+      "domain": "felixads.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "21",
       "name": "Strongmetrics",
       "domain": "Strongmetrics.io",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "11",
-      "name": "FlairAds",
-      "domain": "flairads.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "24",
-      "name": "Pubsfusion",
-      "domain": "pubsfusion.com",
       "seller_type": "BOTH"
     },
     {
@@ -44,75 +80,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "20",
-      "name": "LeChance",
-      "domain": "1.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "29",
-      "name": "Vlion",
-      "domain": "advlion.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "19",
-      "name": "Adset",
-      "domain": "1.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "8",
-      "name": "Eyydfun",
-      "domain": "admobgeek.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "28",
-      "name": "Admozart",
-      "domain": "admozart.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "7",
-      "name": "Doubleclick",
-      "domain": "admobgeek.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "25",
-      "name": "TheMediaPoint",
-      "domain": "TheMediaPoint.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "17",
-      "name": "Hueads",
-      "domain": "hueads.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "22",
-      "name": "Bidderads",
-      "domain": "bidderads.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "10",
-      "name": "Airmobi",
-      "domain": "airmobyte.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "16",
-      "name": "Signaasat",
-      "domain": "signaasat.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "13",
-      "name": "pwr-ads",
-      "domain": "pwr-ads.com",
+      "seller_id": "34",
+      "name": "Starryformula (Yindan)",
+      "domain": "starryformula.com",
       "seller_type": "BOTH"
     },
     {
@@ -122,16 +92,88 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "22",
+      "name": "Bidderads",
+      "domain": "bidderads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "41",
+      "name": "Nexverse",
+      "domain": "Nexverse.ai",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "17",
+      "name": "Hueads",
+      "domain": "hueads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "39",
+      "name": "BidInfluence",
+      "domain": "bidinfluence.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "25",
+      "name": "TheMediaPoint",
+      "domain": "TheMediaPoint.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "28",
+      "name": "Admozart",
+      "domain": "admozart.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "40",
+      "name": "Bloomgm",
+      "domain": "bloomgm.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "13",
+      "name": "pwr-ads",
+      "domain": "pwr-ads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "24",
+      "name": "Pubsfusion",
+      "domain": "pubsfusion.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "11",
+      "name": "FlairAds",
+      "domain": "flairads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "33",
+      "name": "Sparklemob",
+      "domain": "sparklexads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "32",
+      "name": "PeakMyAds",
+      "domain": "peakmyads.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "27",
       "name": "iFlytek",
       "domain": "iflytek.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "18",
-      "name": "Ming Yan",
-      "domain": "Mingyan.com",
-      "seller_type": "PUBLISHER"
+      "seller_id": "36",
+      "name": "CoqNoviq",
+      "domain": "cognoviqads.com",
+      "seller_type": "BOTH"
     }
   ]
 }
