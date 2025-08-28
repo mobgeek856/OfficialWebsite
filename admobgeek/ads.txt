@@ -126,8 +126,8 @@ themediagrid.com, 8ZRKBE, RESELLER
 media.net, 8CU4YBH24, RESELLER
 
 
-Pubsfusion.com, 100263, DIRECT
-Pubsfusion.com, 100263, RESELLER
+pubsfusion.com, 100263, DIRECT
+pubsfusion.com, 100263, RESELLER
 conversantmedia.com, 100969, RESELLER, 03113cd04947736d
 inmobi.com, 9098ab5aeb2447d1995b7fc3249abe67, RESELLER, 83e75a7ae333ca9d
 adagio.io, 1548, RESELLER
