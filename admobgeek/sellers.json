@@ -8,21 +8,15 @@
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "18",
-      "name": "Ming Yan",
-      "domain": "Mingyan.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
       "seller_id": "30",
       "name": "Milkywase",
       "domain": "milkywase.com",
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "37",
-      "name": "Admixer SSP",
-      "domain": "admixer.com",
+      "seller_id": "16",
+      "name": "Signaasat",
+      "domain": "signaasat.com",
       "seller_type": "PUBLISHER"
     },
     {
@@ -32,9 +26,9 @@
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "16",
-      "name": "Signaasat",
-      "domain": "signaasat.com",
+      "seller_id": "37",
+      "name": "Admixer SSP",
+      "domain": "admixer.com",
       "seller_type": "PUBLISHER"
     },
     {
@@ -46,6 +40,12 @@
     {
       "seller_id": "7",
       "name": "Doubleclick",
+      "domain": "admobgeek.com",
+      "seller_type": "INTERMEDIARY"
+    },
+    {
+      "seller_id": "52",
+      "name": "OneClick",
       "domain": "admobgeek.com",
       "seller_type": "INTERMEDIARY"
     },
@@ -62,15 +62,15 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "12",
-      "name": "Felixads",
-      "domain": "felixads.com",
-      "seller_type": "BOTH"
-    },
-    {
       "seller_id": "21",
       "name": "Strongmetrics",
       "domain": "Strongmetrics.io",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "12",
+      "name": "Felixads",
+      "domain": "felixads.com",
       "seller_type": "BOTH"
     },
     {
@@ -80,9 +80,33 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "24",
+      "name": "Pubsfusion",
+      "domain": "pubsfusion.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "34",
       "name": "Starryformula (Yindan)",
       "domain": "starryformula.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "57",
+      "name": "WeCall Media",
+      "domain": "Wecallmedia.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "48",
+      "name": "AdScholar",
+      "domain": "adscholars.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "59",
+      "name": "Verve",
+      "domain": "verve.com",
       "seller_type": "BOTH"
     },
     {
@@ -92,33 +116,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "22",
-      "name": "Bidderads",
-      "domain": "bidderads.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "41",
-      "name": "Nexverse",
-      "domain": "Nexverse.ai",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "17",
-      "name": "Hueads",
-      "domain": "hueads.com",
-      "seller_type": "BOTH"
-    },
-    {
       "seller_id": "39",
       "name": "BidInfluence",
       "domain": "bidinfluence.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "25",
-      "name": "TheMediaPoint",
-      "domain": "TheMediaPoint.com",
       "seller_type": "BOTH"
     },
     {
@@ -134,15 +134,21 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "22",
+      "name": "Bidderads",
+      "domain": "bidderads.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "13",
       "name": "pwr-ads",
       "domain": "pwr-ads.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "24",
-      "name": "Pubsfusion",
-      "domain": "pubsfusion.com",
+      "seller_id": "42",
+      "name": "Lltui",
+      "domain": "lltui.com",
       "seller_type": "BOTH"
     },
     {
@@ -158,9 +164,15 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "32",
-      "name": "PeakMyAds",
-      "domain": "peakmyads.com",
+      "seller_id": "41",
+      "name": "Nexverse",
+      "domain": "Nexverse.ai",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "43",
+      "name": "AdZim",
+      "domain": "adzim.net",
       "seller_type": "BOTH"
     },
     {
@@ -170,9 +182,87 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "17",
+      "name": "Hueads",
+      "domain": "hueads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "32",
+      "name": "PeakMyAds",
+      "domain": "peakmyads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "44",
+      "name": "WizAds",
+      "domain": "wizads.eu",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "36",
       "name": "CoqNoviq",
       "domain": "cognoviqads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "46",
+      "name": "AdSaro",
+      "domain": "adsaro.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "50",
+      "name": "Lemma",
+      "domain": "lemmatechnologies.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "45",
+      "name": "3DMA",
+      "domain": "ppcmate.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "58",
+      "name": "KraftAds",
+      "domain": "kraftads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "49",
+      "name": "NativeMonetize",
+      "domain": "nativemonetize.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "53",
+      "name": "JungleTech",
+      "domain": "thejungletechnology.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "54",
+      "name": "rtbhub",
+      "domain": "rtbhub.net",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "56",
+      "name": "OptumAds",
+      "domain": "optumads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "47",
+      "name": "Admile",
+      "domain": "admile.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "51",
+      "name": "MonetizeMatrix",
+      "domain": "monetizematrix.com",
       "seller_type": "BOTH"
     }
   ]
