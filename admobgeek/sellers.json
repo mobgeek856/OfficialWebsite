@@ -2,24 +2,6 @@
   "version": "1.0",
   "sellers": [
     {
-      "seller_id": "63",
-      "name": "NasRev",
-      "domain": "nasrev.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "64",
-      "name": "Bidscube",
-      "domain": "bidscube.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "16",
-      "name": "Signaasat",
-      "domain": "signaasat.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
       "seller_id": "8",
       "name": "Eyydfun",
       "domain": "admobgeek.com",
@@ -38,24 +20,6 @@
       "seller_type": "PUBLISHER"
     },
     {
-      "seller_id": "29",
-      "name": "Vlion",
-      "domain": "advlion.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "35",
-      "name": "BidFuse",
-      "domain": "bidfuse.com",
-      "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "7",
-      "name": "Doubleclick",
-      "domain": "admobgeek.com",
-      "seller_type": "INTERMEDIARY"
-    },
-    {
       "seller_id": "52",
       "name": "OneClick",
       "domain": "admobgeek.com",
@@ -71,6 +35,24 @@
       "seller_id": "62",
       "name": "AdMeridian",
       "domain": "admeridian.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "63",
+      "name": "NasRev",
+      "domain": "nasrev.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "64",
+      "name": "Bidscube",
+      "domain": "bidscube.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "65",
+      "name": "Mogo",
+      "domain": "mogo.ltd",
       "seller_type": "BOTH"
     },
     {
@@ -104,6 +86,12 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "66",
+      "name": "Intenze SSP",
+      "domain": "intenze.co",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "23",
       "name": "Maticway",
       "domain": "maticway.com",
@@ -128,15 +116,27 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "34",
+      "name": "Starryformula (Yindan)",
+      "domain": "starryformula.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "57",
       "name": "WeCall Media",
       "domain": "Wecallmedia.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "34",
-      "name": "Starryformula (Yindan)",
-      "domain": "starryformula.com",
+      "seller_id": "7",
+      "name": "Doubleclick",
+      "domain": "admobgeek.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "16",
+      "name": "Signaasat",
+      "domain": "signaasat.com",
       "seller_type": "BOTH"
     },
     {
@@ -173,12 +173,6 @@
       "seller_id": "13",
       "name": "pwr-ads",
       "domain": "pwr-ads.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "42",
-      "name": "Lltui",
-      "domain": "lltui.com",
       "seller_type": "BOTH"
     },
     {
@@ -278,6 +272,12 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "29",
+      "name": "Vlion",
+      "domain": "advlion.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "58",
       "name": "KraftAds",
       "domain": "kraftads.com",
@@ -293,6 +293,18 @@
       "seller_id": "51",
       "name": "MonetizeMatrix",
       "domain": "monetizematrix.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "35",
+      "name": "BidFuse",
+      "domain": "bidfuse.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "42",
+      "name": "Lltui",
+      "domain": "lltui.com",
       "seller_type": "BOTH"
     }
   ]
