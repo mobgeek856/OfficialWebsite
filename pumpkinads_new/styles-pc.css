@@ -369,6 +369,20 @@
   .feat-item-html5 strong { display: block; margin-bottom: 0.25rem; }
   .feat-item-html5 .feat-desc { display: block; text-align: left; }
 
+  /* 页脚：PC 端左右与边缘距离一致，与 container 同宽并居中 */
+  .footer .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .footer-bottom {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .footer-grid { align-items: start; }
   .footer-nav-legal > div { min-width: 0; }
   .games-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; }
@@ -386,5 +400,7 @@
 
 @media (min-width: 1024px) {
   .container { padding-left: 2rem; padding-right: 2rem; }
+  .footer .container { padding-left: 2rem; padding-right: 2rem; }
+  .footer-bottom { padding-left: 2rem; padding-right: 2rem; }
   .grid-4 { grid-template-columns: repeat(4, 1fr); }
 }

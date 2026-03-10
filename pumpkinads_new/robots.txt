@@ -1,0 +1,6 @@
+# PUMPKIN TECHNOLOGY - robots.txt for SEO
+User-agent: *
+Allow: /
+
+# Sitemap (replace with your actual domain if different)
+Sitemap: https://www.pumpkinads.com/sitemap.xml
