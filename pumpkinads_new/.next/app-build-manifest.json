@@ -1,0 +1,53 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-7d9b70e9456442b8.js",
+      "static/chunks/117-e881abe2c0a0c050.js",
+      "static/chunks/main-app-24df6c98563916fa.js",
+      "static/chunks/app/_not-found/page-d1916c0b16ebe328.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-7d9b70e9456442b8.js",
+      "static/chunks/117-e881abe2c0a0c050.js",
+      "static/chunks/main-app-24df6c98563916fa.js",
+      "static/css/47a935c744b75d96.css",
+      "static/chunks/972-25f2910cc6db301c.js",
+      "static/chunks/145-1dc7f83ee71a7e7a.js",
+      "static/chunks/app/layout-1489aa01198c2465.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-7d9b70e9456442b8.js",
+      "static/chunks/117-e881abe2c0a0c050.js",
+      "static/chunks/main-app-24df6c98563916fa.js",
+      "static/chunks/145-1dc7f83ee71a7e7a.js",
+      "static/chunks/app/page-fd155a1794820fdb.js"
+    ],
+    "/terms/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-7d9b70e9456442b8.js",
+      "static/chunks/117-e881abe2c0a0c050.js",
+      "static/chunks/main-app-24df6c98563916fa.js",
+      "static/chunks/972-25f2910cc6db301c.js",
+      "static/chunks/app/terms/page-659f9b224f4b0530.js"
+    ],
+    "/privacy-policy/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-7d9b70e9456442b8.js",
+      "static/chunks/117-e881abe2c0a0c050.js",
+      "static/chunks/main-app-24df6c98563916fa.js",
+      "static/chunks/972-25f2910cc6db301c.js",
+      "static/chunks/app/privacy-policy/page-d645b8d151f70039.js"
+    ],
+    "/cookie-policy/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-7d9b70e9456442b8.js",
+      "static/chunks/117-e881abe2c0a0c050.js",
+      "static/chunks/main-app-24df6c98563916fa.js",
+      "static/chunks/972-25f2910cc6db301c.js",
+      "static/chunks/app/cookie-policy/page-4680fd00b5d01a16.js"
+    ]
+  }
+}

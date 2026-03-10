@@ -1,0 +1,565 @@
+/* PUMPKIN TECHNOLOGY - Mobile only (max-width: 767px). Adjust here without affecting PC. */
+
+@media (max-width: 767px) {
+  /* --- 去掉可能超出屏幕的图片，仅保留文字重新排版，整齐对齐 --- */
+  main .hero-bg,
+  main .card-bg,
+  /* main img:not(header img) {
+    display: none !important;
+  } */
+  .header-inner {
+    height: 4rem;
+  }
+
+  header .header-logo {
+    display: block !important;
+    height: 3rem;
+  }
+
+  .nav-desktop { display: none; }
+  .menu-btn { display: flex; }
+  .nav-mobile { display: none; }
+  .nav-mobile.open { display: flex; }
+  /* 手机端目录：从左排列；主菜单 Home/Solutions(子项)/Contact/Blog；Legal 横排在 2026 上方；无 Legal 标题 */
+  .nav-mobile {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .nav-mobile-main {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .nav-mobile-main a {
+    text-align: left;
+    display: block;
+  }
+  .nav-mobile-main .sub {
+    padding-left: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .nav-mobile-legal-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .nav-mobile-legal-row a {
+    font-size: 0.875rem;
+    text-decoration: underline;
+    color: rgba(255,255,255,0.8);
+  }
+  .nav-mobile-footer {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .section-padding { padding-top: 3rem; padding-bottom: 3rem; }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    padding-top: 4.5rem;
+    padding-bottom: 3rem;
+    min-height: auto;
+  }
+  .hero-content { width: 100%; text-align: center; }
+  /* 手机端 Hero: Cutting-Edge Ad Tech Solutions 在 logo 下方，框单行高度、文字上下 5px，logo 居中 */
+  .hero-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-badge img {
+    display: block;
+    margin: 0.5rem auto;
+  }
+  .hero-badge span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    padding: 5px 1rem;
+    line-height: 1.4;
+    border: 1px solid rgba(249,115,22,0.3);
+    background: rgba(249,115,22,0.1);
+    color: var(--primary);
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+  .hero h1 { font-size: 2rem; max-width: 100%; text-align: center; }
+  .hero-desc { font-size: 1rem; max-width: 100%; text-align: center; }
+  .hero-btns { justify-content: center; flex-wrap: wrap; }
+  .section-title { font-size: 1.75rem; }
+  .section-subtitle { max-width: 100%; margin-bottom: 2rem; }
+
+  /* 单列布局 */
+  .grid-3,
+  .grid-4,
+  .grid-2,
+  .value-list {
+    grid-template-columns: 1fr;
+  }
+  .flex-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2rem;
+  }
+
+
+  .flex-section img {
+    width: 100%;
+  }
+
+  .flex-section .col {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* 文字左对齐、整齐 */
+  body { text-align: left; }
+  .section-title,
+  .section-subtitle,
+  .hero-desc,
+  .card p, .card li,
+  .value-item,
+  .value-item span:last-child,
+  .advertiser-block p,
+  .feat-card p,
+  .sol-card p,
+  .blog-card p,
+  .contact-col,
+  .game-card-title,
+  .game-card-intro {
+    text-align: left;
+  }
+  .section-title.text-center,
+  .section-subtitle.text-center { text-align: center; }
+  main p, main li, main h1, main h2, main h3, main h4 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Core Business 手机端: 区块与副标题居中；框内标题居中，内容居中左对齐；底部数字在上方居中，数据文字距底 15px */
+  .core-business .section-title,
+  .core-business .section-subtitle { text-align: center; margin-left: auto; margin-right: auto; }
+  .core-business .section-subtitle { display: block; }
+  .core-business .card {
+    text-align: center;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mt-4 { 
+    margin-top: 1.5rem;
+  }
+
+  .core-business .card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  .core-business .card h3 { text-align: center; }
+  .core-business .card ul.card-list {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    max-width: 100%;
+  }
+  .core-business .card li { text-align: left; }
+  .core-business .card-stats {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .core-business .card-stats .stat {
+    font-size: 0.7rem;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .core-business .card-stats .stat strong {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+  .core-business .card-stats .stat:not(:last-child) {
+    border-right: 1px solid rgba(255,255,255,0.25);
+    padding-right: 0.35rem;
+    margin-right: 0.25rem;
+  }
+  .all-in-one { font-size: 1.25rem; letter-spacing: 0.1em; text-align: center; }
+
+  /* ADX · High-Engagement HTML5 Advertising 手机端：标题/文字居中 */
+  #solutions-html5 > .container.flex-section:first-of-type {
+    text-align: center;
+  }
+  #solutions-html5 > .container.flex-section:first-of-type .section-title,
+  #solutions-html5 > .container.flex-section:first-of-type .section-subtitle {
+    text-align: center;
+  }
+
+  /* ALL IN ONE PLATFORM 手机端：标题放到第一个内容上方，去掉中间图片，文字加方框、间距 5–10px、方框尺寸一致 */
+  .all-in-one-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: stretch;
+  }
+  /* 与上半部分分割线 */
+  #solutions-advertiser .all-in-one-layout {
+    border-top: 2px solid rgba(255,255,255,0.14);
+    padding-top: 1.25rem;
+  }
+  .all-in-one-center {
+    order: -1;
+    min-height: 0;
+    padding: 0 0 0.5rem;
+  }
+  .all-in-one-center .all-in-one-img { display: none !important; }
+  .all-in-one-center .all-in-one-title {
+    position: static;
+    transform: none;
+    display: block;
+    text-align: center;
+  }
+  .all-in-one-left,
+  .all-in-one-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .all-in-one-layout .all-in-one-box {
+    width: 100%;
+    height: 9.6rem;
+    min-height: 9.5rem;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    background: rgba(26,26,46,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .all-in-one-layout .all-in-one-box > div { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .all-in-one-layout .all-in-one-box h3 { margin: 0 0 0.5rem; flex-shrink: 0; }
+  .all-in-one-layout .all-in-one-box p { margin: 0; flex: 1; overflow: auto; font-size: 0.875rem; line-height: 1.4; }
+  .all-in-one-right .all-in-one-btn-wrap { margin-top: 0.25rem; }
+
+  /* 无图时 advertiser-block 只保留文字，整齐排 */
+  .advertiser-block {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .advertiser-block img { display: none !important; }
+  .advertiser-block h3 { margin-bottom: 0.25rem; }
+  .advertiser-block p { margin: 0; }
+
+  .contact-columns { grid-template-columns: 1fr; }
+  .form-submit { width: 100%; }
+  .footer-grid { grid-template-columns: 1fr 1fr 1fr; gap: 2rem 3rem; padding-bottom: 1.5rem; padding-top: 1.5rem;}
+  .footer-brand { grid-column: 1 / -1; }
+  .blog-grid { grid-template-columns: 1fr; }
+
+  /* Our RTB Partners 手机端：固定 3 列网格（3×3） */
+  .partners {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+    justify-items: center;
+    align-items: center;
+  }
+  .partner-logo {
+    width: 100%;
+    height: 3.5rem;
+    min-width: 0;
+  }
+  .partner-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /* 三. Multi-format 手机端: 标题一行显示不开则两行、居中、缩小；图片按宽度适配不溢出 */
+  .multi-format { overflow-x: hidden; }
+  .multi-format .multi-format-title {
+    white-space: normal;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .multi-format .container img.img-contain,
+  .multi-format img {
+    max-width: 100% !important;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  /* 5 steps to become a RTB partner: 标题一行显示，溢出则缩小 */
+  .steps-rtb-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: clamp(0.875rem, 4.5vw, 1.75rem);
+  }
+
+  /* RTB Solution for Publishers 手机端: 文字加方框，上下单列排列，整体居中 */
+  .rtb-solution-section .rtb-solution-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 22rem;
+  }
+  .rtb-solution-section .rtb-solution-list li {
+    display: flex !important;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255,255,255,0.16);
+    background: rgba(26,26,46,0.9);
+  }
+
+  /* 手机端内容区所有按钮居中 */
+  main section .container a.btn,
+  main section .container button.btn:not(.form-submit) {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main section .flex-section .col a.btn,
+  main section .flex-section .col button.btn:not(.form-submit) {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Publisher Value 手机端: 标题副标题居中；1-6 方框上下堆叠 */
+  .value-cols-wrap.value-cols-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .value-cols-grid .value-item { min-height: 0; }
+  /* 4 Easy Steps 图片在手机端显示并适配屏幕大小 */
+  .sdk-steps-img {
+    display: block !important;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+    margin-top: 0.4rem;
+  }
+
+  /* Why Publishers Choose Our SDK 手机端：左右滑动列表，去掉中间图片 */
+  .sdk-why-image-wrap { display: none !important; }
+  .sdk-why-layout {
+    display: flex !important;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .sdk-why-layout .sdk-why-card {
+    flex: 0 0 260px;
+    min-width: 260px;
+    max-width: 260px;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+  }
+  .sdk-why-layout .sdk-why-card img { display: none !important; }
+  .publisher-value-section .section-title,
+  .publisher-value-section .publisher-value-desc { text-align: center; margin-left: auto; margin-right: auto; }
+  .publisher-value-section .publisher-value-image-wrap { text-align: center; }
+  .publisher-value-section .publisher-value-img { max-width: 100%; height: auto; }
+
+  .games-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+  .game-card img { display: none !important; }
+  .game-card-content { padding: 1rem; }
+  .game-card-title { font-size: 0.9rem; }
+  .game-card-intro { -webkit-line-clamp: 2; line-clamp: 2; }
+
+  /* ADX HTML5：Support for Rich Media / Header Bidding / Support for Special Implementations / Smart SDK 标题与文字上下排列，文字对齐 */
+  .feat-list-html5 .feat-item-html5 {
+    display: block;
+    margin-bottom: 1.25rem;
+  }
+  .feat-item-html5 strong {
+    display: block;
+    margin-bottom: 0.35rem;
+  }
+  .feat-item-html5 .feat-desc {
+    display: block;
+    text-align: left;
+  }
+
+  /* WHY HTML5 GAMES 手机端：与 ALL IN ONE PLATFORM 一致——标题在上、内容方框、间距 5–10px、方框尺寸一致，去掉图片 */
+  .why-html5-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: stretch;
+  }
+  /* 与上面部分分割线 */
+  .why-html5-layout {
+    border-top: 2px solid rgba(255,255,255,0.14);
+    padding-top: 1.25rem;
+    margin-top: 1.25rem;
+  }
+  .why-html5-center {
+    order: -1;
+    min-height: 0;
+    padding: 0 0 0.5rem;
+  }
+  .why-html5-center .why-html5-img { display: none !important; }
+  .why-html5-center .why-html5-title {
+    position: static;
+    transform: none;
+    display: block;
+    text-align: center;
+  }
+  .why-html5-left,
+  .why-html5-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .why-html5-layout .feat-card {
+    width: 100%;
+    height: 9.5rem;
+    min-height: 9.5rem;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    background: rgba(26,26,46,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .why-html5-layout .feat-card img { display: none !important; }
+  .why-html5-layout .feat-card h4 { margin: 0 0 0.5rem; font-size: 1rem; color: var(--primary); flex-shrink: 0; }
+  .why-html5-layout .feat-card p { margin: 0; flex: 1; overflow: auto; font-size: 0.875rem; line-height: 1.4; }
+
+  /* Variety Games We Have 手机端：左右滑动列表，Item 与 PC 端一致（保留图片、样式） */
+  .variety-games-grid {
+    display: flex !important;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .variety-games-grid .game-card {
+    /* 约 2.5 个卡片露出，提示可滑动 */
+    flex: 0 0 clamp(140px, 40vw, 180px);
+    min-width: clamp(140px, 40vw, 180px);
+    max-width: clamp(140px, 40vw, 180px);
+    scroll-snap-align: start;
+  }
+  .variety-games-grid .game-card img { display: block !important; }
+  .variety-games-grid .game-card-content { padding: 0.5rem 0.65rem; }
+  .variety-games-grid .game-card-title { font-size: 0.82rem; }
+  .variety-games-grid .game-card-intro { font-size: 0.72rem; -webkit-line-clamp: 2; line-clamp: 2; }
+
+  /* 4 Easy Steps 手机端：上下排列更清晰 */
+  .sdk-steps-text { text-align: center; line-height: 1.7; }
+  .sdk-steps-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem auto 0;
+    max-width: 22rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .sdk-steps-list li {
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255,255,255,0.16);
+    background: rgba(26,26,46,0.9);
+    text-align: left;
+  }
+
+  /* SDK Monetization 标题（手机端）居中：多行也居中 */
+  #solutions-sdk > .container.flex-section:first-of-type .section-title {
+    text-align: center;
+  }
+
+  /* 4 Easy Steps to Monetize Your Products 标题（手机端）居中：多行也居中 */
+  #solutions-sdk .text-center.mt-4 > .section-title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-container .section-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-padding { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .hero h1 { font-size: 1.5rem; }
+  .section-title { font-size: 1.5rem; }
+  .multi-format .multi-format-title { font-size: 0.9rem; }
+  .games-grid { grid-template-columns: 1fr; }
+  .variety-games-grid { display: flex !important; flex-wrap: nowrap; }
+  .variety-games-grid .game-card { flex: 0 0 clamp(130px, 40vw, 160px); min-width: clamp(130px, 40vw, 160px); max-width: clamp(130px, 40vw, 160px); }
+  .sdk-why-layout { display: flex !important; flex-wrap: nowrap; }
+  .sdk-why-layout .sdk-why-card { flex: 0 0 240px; min-width: 240px; max-width: 240px; }
+}
