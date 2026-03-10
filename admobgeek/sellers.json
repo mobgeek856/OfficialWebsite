@@ -2,15 +2,21 @@
   "version": "1.0",
   "sellers": [
     {
-      "seller_id": "8",
-      "name": "Eyydfun",
-      "domain": "admobgeek.com",
+      "seller_id": "86",
+      "name": "kk mobile",
+      "domain": "ygmobi.com",
       "seller_type": "PUBLISHER"
     },
     {
       "seller_id": "30",
       "name": "Milkywase",
       "domain": "milkywase.com",
+      "seller_type": "PUBLISHER"
+    },
+    {
+      "seller_id": "8",
+      "name": "Eyydfun",
+      "domain": "admobgeek.com",
       "seller_type": "PUBLISHER"
     },
     {
@@ -38,15 +44,27 @@
       "seller_type": "INTERMEDIARY"
     },
     {
-      "seller_id": "80",
-      "name": "Mogo M2",
-      "domain": "mogo.ltd",
-      "seller_type": "INTERMEDIARY"
-    },
-    {
       "seller_id": "70",
       "name": "Vosaco",
       "domain": "vosacosg.com",
+      "seller_type": "INTERMEDIARY"
+    },
+    {
+      "seller_id": "83",
+      "name": "Yueke",
+      "domain": "yueads.top",
+      "seller_type": "INTERMEDIARY"
+    },
+    {
+      "seller_id": "84",
+      "name": "AdsMagic SSP",
+      "domain": "adsmagic.in",
+      "seller_type": "INTERMEDIARY"
+    },
+    {
+      "seller_id": "80",
+      "name": "Mogo M2",
+      "domain": "mogo.ltd",
       "seller_type": "INTERMEDIARY"
     },
     {
@@ -56,15 +74,21 @@
       "seller_type": "INTERMEDIARY"
     },
     {
+      "seller_id": "12",
+      "name": "Felixads",
+      "domain": "felixads.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "62",
       "name": "AdMeridian",
       "domain": "admeridian.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "12",
-      "name": "Felixads",
-      "domain": "felixads.com",
+      "seller_id": "81",
+      "name": "AdExchangeHUB",
+      "domain": "monetizemore.com",
       "seller_type": "BOTH"
     },
     {
@@ -77,6 +101,12 @@
       "seller_id": "76",
       "name": "jigujigu",
       "domain": "jigujigu.tech",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "65",
+      "name": "Mogo",
+      "domain": "mogo.ltd",
       "seller_type": "BOTH"
     },
     {
@@ -98,12 +128,6 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "72",
-      "name": "Kinetix",
-      "domain": "kinetix.tv",
-      "seller_type": "BOTH"
-    },
-    {
       "seller_id": "60",
       "name": "TeqFire",
       "domain": "teqfire.com",
@@ -116,33 +140,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "65",
-      "name": "Mogo",
-      "domain": "mogo.ltd",
-      "seller_type": "BOTH"
-    },
-    {
       "seller_id": "79",
       "name": "RavAds",
       "domain": "ravads.net",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "82",
-      "name": "qizhi",
-      "domain": "admobgeek.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "81",
-      "name": "AdExchangeHUB",
-      "domain": "monetizemore.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "63",
-      "name": "NasRev",
-      "domain": "nasrev.com",
       "seller_type": "BOTH"
     },
     {
@@ -152,15 +152,33 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "63",
+      "name": "NasRev",
+      "domain": "nasrev.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "85",
+      "name": "360MV SSP",
+      "domain": "360totalsecurity.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "64",
       "name": "Bidscube",
       "domain": "bidscube.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "69",
-      "name": "Xingya",
+      "seller_id": "82",
+      "name": "qizhi",
       "domain": "admobgeek.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "72",
+      "name": "Kinetix",
+      "domain": "kinetix.tv",
       "seller_type": "BOTH"
     },
     {
@@ -176,15 +194,21 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "61",
-      "name": "PERFORMENA",
-      "domain": "performist.net",
+      "seller_id": "69",
+      "name": "Xingya",
+      "domain": "admobgeek.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "66",
-      "name": "Intenze SSP",
-      "domain": "intenze.co",
+      "seller_id": "87",
+      "name": "AdZesto",
+      "domain": "adzesto.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "61",
+      "name": "PERFORMENA",
+      "domain": "performist.net",
       "seller_type": "BOTH"
     },
     {
@@ -194,9 +218,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "24",
-      "name": "Pubsfusion",
-      "domain": "pubsfusion.com",
+      "seller_id": "66",
+      "name": "Intenze SSP",
+      "domain": "intenze.co",
       "seller_type": "BOTH"
     },
     {
@@ -206,27 +230,27 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "28",
-      "name": "Admozart",
-      "domain": "admozart.com",
-      "seller_type": "BOTH"
-    },
-    {
       "seller_id": "7",
       "name": "Doubleclick",
       "domain": "admobgeek.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "16",
-      "name": "Signaasat",
-      "domain": "signaasat.com",
+      "seller_id": "24",
+      "name": "Pubsfusion",
+      "domain": "pubsfusion.com",
       "seller_type": "BOTH"
     },
     {
       "seller_id": "34",
       "name": "Starryformula (Yindan)",
       "domain": "starryformula.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "16",
+      "name": "Signaasat",
+      "domain": "signaasat.com",
       "seller_type": "BOTH"
     },
     {
@@ -239,6 +263,12 @@
       "seller_id": "57",
       "name": "WeCall Media",
       "domain": "Wecallmedia.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "28",
+      "name": "Admozart",
+      "domain": "admozart.com",
       "seller_type": "BOTH"
     },
     {
@@ -362,6 +392,12 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "32",
+      "name": "PeakMyAds",
+      "domain": "peakmyads.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "45",
       "name": "3DMA",
       "domain": "ppcmate.com",
@@ -379,12 +415,6 @@
       "is_confidential": 1
     },
     {
-      "seller_id": "51",
-      "name": "MonetizeMatrix",
-      "domain": "monetizematrix.com",
-      "seller_type": "BOTH"
-    },
-    {
       "seller_id": "29",
       "name": "Vlion",
       "domain": "advlion.com",
@@ -397,9 +427,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "32",
-      "name": "PeakMyAds",
-      "domain": "peakmyads.com",
+      "seller_id": "51",
+      "name": "MonetizeMatrix",
+      "domain": "monetizematrix.com",
       "seller_type": "BOTH"
     }
   ]
