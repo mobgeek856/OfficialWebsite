@@ -550,6 +550,11 @@
   .contact-container .section-title {
     text-align: center;
   }
+
+  .contact-form-pd .form-submit{
+    text-align: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 480px) {
