@@ -496,43 +496,42 @@
     <section id="contact" class="section-padding bg-alt scroll-mt">
       <div class="container contact-container">
         <h2 class="section-title">Contact</h2>
-        <form class="contact-form contact-form-pdf" action="#" method="get" onsubmit="return false;">
-          <p class="form-step">Step 1 – Partner Type</p>
-          <div class="form-group">
-            <div class="radio-group">
-              <label><input type="radio" name="type" value="publisher" checked> Publisher</label>
-              <label><input type="radio" name="type" value="advertiser"> Advertiser</label>
-            </div>
-          </div>
+        <form class="contact-form contact-form-pdf" id="contact-form" action="#" method="post">
           <div class="contact-columns">
-            <div class="contact-col contact-col-common">
-              <h4 class="contact-col-title">Common</h4>
-              <div class="form-group"><label>Contact Name *</label><input type="text" required placeholder="Your name"></div>
-              <div class="form-group"><label>Work Email *</label><input type="email" required placeholder="email@company.com"></div>
-              <div class="form-group"><label>Job Title</label><input type="text" placeholder="Optional"></div>
-              <div class="form-group"><label>Telegram / WhatsApp</label><input type="text" placeholder="Optional"></div>
-              <div class="form-group"><label>Country</label><input type="text" placeholder="Country"></div>
-              <div class="form-group"><label>Message (optional)</label><textarea rows="3" placeholder="Your message"></textarea></div>
+            <div class="contact-col contact-col-left">
+              <div class="form-group"><label>your name: *</label><input type="text" name="name" required placeholder="Your name"></div>
+              <div class="form-group"><label>your company name: *</label><input type="text" name="companyName" required placeholder="Your company name"></div>
+              <div class="form-group"><label>your position:</label><input type="text" name="jobTitle" placeholder="Your position"></div>
+              <div class="form-group"><label>your e-mail: *</label><input type="email" name="mail" required placeholder="your@email.com"></div>
+              <div class="form-group">
+                <label>phone number: *</label>
+                <input type="text" name="phoneNumber" required placeholder="+1 1xxxxxxx">
+                <span class="form-hint">Please include country code</span>
+              </div>
             </div>
-            <div class="contact-col contact-col-publisher">
-              <h4 class="contact-col-title">Publisher</h4>
-              <div class="form-group"><label>Company Name *</label><input type="text" placeholder="Company"></div>
-              <div class="form-group"><label>Website / App URL *</label><input type="url" placeholder="https://"></div>
-              <div class="form-group"><label>Monthly Traffic *</label><input type="text" placeholder="e.g. 1M"></div>
-              <div class="form-group"><label>Primary GEO *</label><input type="text" placeholder="e.g. US, EU"></div>
-              <div class="form-group"><label>Traffic Type</label><select><option value="">Select</option><option>Web</option><option>App</option><option>CTV</option></select></div>
-              <div class="form-group"><label>Interested In</label><select><option value="">Select</option><option>RTB</option><option>SDK</option><option>HTML5 Ads</option></select></div>
-            </div>
-            <div class="contact-col contact-col-advertiser">
-              <h4 class="contact-col-title">Advertiser</h4>
-              <div class="form-group"><label>Company Name *</label><input type="text" placeholder="Company"></div>
-              <div class="form-group"><label>Website</label><input type="url" placeholder="https://"></div>
-              <div class="form-group"><label>Target GEO *</label><input type="text" placeholder="e.g. US, EU"></div>
-              <div class="form-group"><label>Monthly Budget *</label><input type="text" placeholder="e.g. $10K"></div>
-              <div class="form-group"><label>Ad Formats Needed</label><select><option value="">Select</option><option>Display</option><option>Video</option><option>Native</option><option>CTV</option><option>HTML5 Interactive</option></select></div>
+            <div class="contact-col contact-col-right">
+              <div class="form-group">
+                <label>Traffic Type:</label>
+                <div class="contact-toggle-group" role="group" aria-label="Traffic Type">
+                  <input type="radio" id="traffice-app" name="trafficeType" value="App" checked class="contact-toggle-input">
+                  <label for="traffice-app" class="contact-toggle-btn">APP</label>
+                  <input type="radio" id="traffice-web" name="trafficeType" value="Web" class="contact-toggle-input">
+                  <label for="traffice-web" class="contact-toggle-btn">WEB</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>publishers/advertisers:</label>
+                <div class="contact-toggle-group" role="group" aria-label="Publishers or Advertisers">
+                  <input type="radio" id="type-publishers" name="type" value="publisher" checked class="contact-toggle-input">
+                  <label for="type-publishers" class="contact-toggle-btn">Publishers</label>
+                  <input type="radio" id="type-advertisers" name="type" value="advertiser" class="contact-toggle-input">
+                  <label for="type-advertisers" class="contact-toggle-btn">Advertisers</label>
+                </div>
+              </div>
+              <div class="form-group"><label>message:</label><textarea name="message" rows="4" placeholder="Your message"></textarea></div>
+              <button type="submit" class="btn btn-primary form-submit contact-submit-btn">Tell us</button>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary form-submit">Submit</button>
         </form>
       </div>
     </section>

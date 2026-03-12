@@ -113,6 +113,58 @@
     });
   }
 
+  // Contact form: POST to API (name, phoneNumber, companyName, mail, trafficeType – all required)
+  var contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var form = e.target;
+      var name = (form.name && form.name.value || '').trim();
+      var mail = (form.mail && form.mail.value || '').trim();
+      var phoneNumber = (form.phoneNumber && form.phoneNumber.value || '').trim();
+      var companyName = (form.companyName && form.companyName.value || '').trim();
+      var trafficeType = (form.querySelector('input[name="trafficeType"]:checked') && form.querySelector('input[name="trafficeType"]:checked').value || '').trim();
+
+      var position = (form.jobTitle && form.jobTitle.value || '').trim();
+      var publishersAdvertisers = (form.querySelector('input[name="type"]:checked') && form.querySelector('input[name="type"]:checked').value || 'publisher');
+
+      if (!name) { window.alert('Please enter your name.'); return; }
+      if (!companyName) { window.alert('Please enter your company name.'); return; }
+      if (!mail) { window.alert('Please enter your e-mail.'); return; }
+      if (!phoneNumber) { window.alert('Please enter phone number.'); return; }
+      if (!trafficeType) { window.alert('Please select Traffic Type (APP or WEB).'); return; }
+
+      var submitBtn = form.querySelector('button[type="submit"]');
+      var btnText = submitBtn ? submitBtn.textContent : '';
+      if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Submitting...'; }
+
+      var formData = new FormData(form);
+      formData.set('name', 'pumpkin-' + name);
+      formData.set('trafficeType', trafficeType);
+      formData.set('publishersAdvertisers', publishersAdvertisers);
+      formData.set('position', position);
+
+      fetch('https://mobgeek.gyhserver.com/system/contactus/sublimit', {
+        method: 'POST',
+        body: formData
+      })
+        .then(function (res) { return res.json().catch(function () { return { code: res.status, msg: res.statusText }; }); })
+        .then(function (data) {
+          if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = btnText; }
+          if (data && (data.code === 200 || data.code === 0)) {
+            window.alert('Thank you. Your message has been submitted.');
+            form.reset();
+          } else {
+            window.alert('Submission failed. ' + (data && data.msg ? data.msg : 'Please try again later.'));
+          }
+        })
+        .catch(function (err) {
+          if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = btnText; }
+          window.alert('Network error. Please check your connection and try again.');
+        });
+    });
+  }
+
   // Scroll to hash on load (e.g. index.html#contact)
   if (window.location.hash) {
     window.addEventListener('load', function () {

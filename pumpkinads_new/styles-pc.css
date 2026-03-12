@@ -343,12 +343,12 @@
   .sdk-why-right-bottom .sdk-why-card { transform: translate(-50px, -50px); }
   #solutions-sdk .container.mt-4 > h3 { margin-bottom: 0.5rem; }
 
-  /* Contact 提交信息：PC 端整体居中，Submit 按钮居中 */
+  /* Contact：两栏布局，整体居中；Tell us 按钮保持右栏全宽 */
   #contact .section-title { text-align: center; }
   .contact-container { max-width: 72rem; margin-left: auto; margin-right: auto; }
-  .contact-columns { grid-template-columns: 1fr 1fr 1fr; }
+  .contact-columns { grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; }
+  .contact-form .form-submit { width: 100%; margin-left: 0; margin-right: 0; }
   .form-row { grid-template-columns: repeat(2, 1fr); }
-  .form-submit { width: auto; padding-left: 2rem; padding-right: 2rem; display: block; margin-left: auto; margin-right: auto; }
   /* Our Solutions: 标题、副标题居中 */
   .our-solutions-section .section-title,
   .our-solutions-section .section-subtitle { text-align: center; margin-left: auto; margin-right: auto; display: block; }
