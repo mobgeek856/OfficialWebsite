@@ -1,0 +1,50 @@
+:root {
+  
+  --px-10:10px;
+  --fontSize:10px;
+  
+  
+}
+
+
+@font-face {
+  font-family: 'fzcchjt';  /* 自定义字体名称 */
+  src: url('fonts/fzcchjt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fzdhjt';  /* 自定义字体名称 */
+  src: url('fonts/fzcchjt.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.font08 {
+  font-size: 0.8rem;
+}
+.font1 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.font2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.font3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.font4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.font5{
+  font-size: 4rem;
+  font-weight: 800;
+}

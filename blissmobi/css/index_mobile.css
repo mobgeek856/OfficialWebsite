@@ -1,0 +1,171 @@
+#indexPage {
+  @media screen and (max-width: 1200px) {
+    .threeDGameGridBox,
+    .AdventureGameGridBox,
+    .BoysGameGridBox {
+      .game-item {
+        width: calc(100% / 4);
+        &:nth-last-child(-n + 4) {
+          display: none;
+        }
+      }
+    }
+
+    
+
+    .hero {
+      padding: 6rem 5% 3rem;
+      text-align: center;
+
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .hero-image {
+        top: 50%;
+        right: -50px;
+        width: 50vw;
+      }
+    }
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+    .mission-container {
+      gap: 3rem;
+    }
+  }
+
+  /* 核心处理 */
+
+  @media screen and (max-width: 1000px) {
+    .hero-content {
+      h1 {
+        max-width: 100%;
+      }
+      p {
+        max-width: 100%;
+      }
+    }
+    .hero-image {
+      display: none;
+    }
+    .cta-button {
+      margin: 0 auto;
+    }
+
+    .contact-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    @media screen and (max-width: 800px) {
+
+      .nav-links {
+        a:nth-child(1),
+        a:nth-child(2) {
+          display: none;
+        }
+      }
+      
+      .mission-container {
+        flex-direction: column;
+        gap: 2rem;
+        .mission-image {
+          order: -1;
+          max-width: 500px;
+          margin: 0 auto;
+        }
+
+        .mission-content {
+          text-align: center;
+        }
+      }
+
+      .contact-info {
+        .logo {
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: 1rem;
+          &:first-of-type {
+            font-size: 1.1rem;
+            margin-bottom: 0rem;
+          }
+        }
+        .contact-links {
+          margin-top: 1rem;
+          a {
+            font-size: 0.9rem;
+          }
+        }
+      }
+
+      .form-banner {
+        display: none;
+      }
+
+      @media screen and (max-width: 500px) {
+        
+        .features-grid {
+          gap: 1rem;
+          .section-title {
+            h2 {
+              font-size: 2rem;
+            }
+          }
+          .feature-card {
+            padding: 1.5rem;
+            .feature-icon {
+              width: 100px;
+              height: 100px;
+            }
+
+            h3 {
+              font-size: 1rem;
+            }
+          }
+        }
+
+        .features-description {
+          font-size: 1rem;
+          padding: 0 1rem;
+        }
+
+        .our-mission {
+          .mission-content {
+            span {
+              font-size: 1.2rem;
+            }
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+
+        .font1 {
+          font-size: 1rem;
+          font-weight: 300;
+        }
+        .font2 {
+          font-size: 0.6rem;
+          font-weight: 400;
+        }
+        .font3 {
+          font-size: 1rem;
+          font-weight: 500;
+        }
+        .font4 {
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+        .font5 {
+          font-size: 4rem;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
