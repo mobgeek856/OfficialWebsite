@@ -244,7 +244,7 @@
                 </div> -->
                 <!-- <img src="./assets/img/formbanner.png" alt="formbanner" class="form-banner"> -->
             </div>
-            <div class="form-container">
+            <div class="form-container" id="formContainer">
                 <form id="contactForm" onsubmit="handleSubmit(event)">
                   <div class="left">
                     <div class="form-group">
@@ -339,11 +339,15 @@
         }
 
         function showThankYou() {
-            const formContainer = document.getElementById('formContainer');
+            const formContainer = document.querySelector('.form-container');
             const thankYou = document.getElementById('thankYou');
             
-            formContainer.classList.add('hidden');
-            thankYou.classList.add('show');
+            if (formContainer) {
+                formContainer.classList.add('hidden');
+            }
+            if (thankYou) {
+                thankYou.classList.add('show');
+            }
         }
 
         async function handleSubmit(event) {
