@@ -605,10 +605,10 @@
       margin-right: -355px;
     }
 
-    #indexPage .services .feature-container .feature-card .feature-icon h3 {
-      font-size: 1.7rem;
+    /* #indexPage .services .feature-container .feature-card .feature-icon h3 {
+      font-size: 1rem;
       width: 150px;
-    }
+    } */
 
     #indexPage .services .feature-container .feature-card .feature-icon p {
       font-size: 1.3rem;
@@ -836,7 +836,7 @@
     }
 
     #indexPage .services .feature-container .feature-card .feature-icon h3 {
-      font-size: 2.3rem;
+      font-size: 1.3rem;
       width: 215px;
     }
 

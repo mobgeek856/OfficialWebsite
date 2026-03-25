@@ -274,7 +274,7 @@
     font-weight: 900;
     font-size: 1.5rem;
     left: 50%; /* 水平方向居中 */
-    top: 42%;
+    top: 47%;
     transform: translateX(-50%); /* 修正居中偏移 */
     z-index: 1; /* 确保文本在图片之上 */
     text-align: center; /* 文本居中 */
@@ -289,7 +289,7 @@
     font-size: 0.82rem;
     font-weight: bold;
     left: 50%; /* 水平方向居中 */
-    top: 65%;
+    top: 70%;
     width: 165px;
     transform: translateX(-50%); /* 修正居中偏移 */
     z-index: 1; /* 确保文本在图片之上 */
