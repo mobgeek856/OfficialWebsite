@@ -95,13 +95,13 @@
   <div id="gridContainer">
   </div>
 
-  <!-- <div class="newGameListContent">
+  <div class="newGameListContent">
     <div class="newGameListheader">new Game</div>
     <div class="newGameList"></div>
   </div>
 
   <div id="gridContainer2">
-  </div> -->
+  </div>
   <div class="site-info-area font1">
     <h2 style="text-align: center">
       If you enjoy our site, learn more about GAME!
@@ -233,13 +233,13 @@
           `;
     return div
   }
-  // let newGameList=outOfOrderList.slice(50, 56)
-  // if (newGameList.length<4) {
-  //    document.querySelector('.newGameListContent').style.display = 'none';
-  // }
-  // newGameList.forEach((item) => {
-  //   document.querySelector('.newGameList').appendChild(creatnewGameboxItem(item))
-  // })
+  let newGameList=outOfOrderList.slice(50, 56)
+  if (newGameList.length<4) {
+     document.querySelector('.newGameListContent').style.display = 'none';
+  }
+  newGameList.forEach((item) => {
+    document.querySelector('.newGameList').appendChild(creatnewGameboxItem(item))
+  })
 
   
 
@@ -275,18 +275,18 @@
       return div
     }
 
-    // data.forEach((item, index) => {
-    //   let box = creatboxItem(item)
-    //   box.className = `gameItem ${item.class}`;
-    //   document.getElementById("gridContainer2").appendChild(box);
-    // });
+    data.forEach((item, index) => {
+      let box = creatboxItem(item)
+      box.className = `gameItem ${item.class}`;
+      document.getElementById("gridContainer2").appendChild(box);
+    });
 
-    // outOfOrderList.slice(150, 210).forEach((item) => {
-    //   let box = creatboxItem(item)
-    //   box.className = `gameItem unit-1`;
+    outOfOrderList.slice(150, 210).forEach((item) => {
+      let box = creatboxItem(item)
+      box.className = `gameItem unit-1`;
 
-    //   document.getElementById("gridContainer2").appendChild(box);
-    // });
+      document.getElementById("gridContainer2").appendChild(box);
+    });
   }
   gridFill2(gameList)
 
