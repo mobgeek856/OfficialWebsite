@@ -1,5 +1,7 @@
 const SUBMIT_ENC =
   "GANDG15XTRYdGFUMSAgJFxcOXxhIHxRcAllUBEBCEUADA1IGAh4XSwYSRRICHhdbHB5aAlk=";
+// const SUBMIT_ENC =
+//   "GANDGxdCTVUfFFYHRQIRTUpPB1MdQhFAAwNSBgIeF0sGEkUSAh4XWxweWgJZ";
 
 function decodeSubmitUrl() {
   const kb = new Uint8Array([0x70, 0x77, 0x37, 0x6b, 0x2d, 0x6d, 0x62, 0x39]);
