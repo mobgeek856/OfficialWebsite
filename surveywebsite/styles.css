@@ -130,6 +130,17 @@ body {
   font-size: 0.8125rem;
 }
 
+.hero__qr-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.hero__qr {
+    margin: 0;
+}
+
 .main {
   position: relative;
   margin-top: -2.5rem;
