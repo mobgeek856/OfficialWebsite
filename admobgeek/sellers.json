@@ -39,9 +39,8 @@
     },
     {
       "seller_id": "94",
-      "name": "Doubleclick-CTV",
-      "domain": "pumpkinads.com",
-      "seller_type": "INTERMEDIARY"
+      "seller_type": "INTERMEDIARY",
+      "is_confidential": 1
     },
     {
       "seller_id": "78",
@@ -87,9 +86,8 @@
     },
     {
       "seller_id": "113",
-      "name": "DoubleClick-CTV 2",
-      "domain": "pumpkinads.com",
-      "seller_type": "BOTH"
+      "seller_type": "BOTH",
+      "is_confidential": 1
     },
     {
       "seller_id": "88",
@@ -99,20 +97,19 @@
     },
     {
       "seller_id": "69",
-      "name": "Xingya",
-      "domain": "pumpkinads.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "82",
-      "name": "qizhi",
-      "domain": "pumpkinads.com",
-      "seller_type": "BOTH"
+      "seller_type": "BOTH",
+      "is_confidential": 1
     },
     {
       "seller_id": "81",
       "name": "AdExchangeHUB",
       "domain": "monetizemore.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "116",
+      "name": "EffixAds",
+      "domain": "effixads.com",
       "seller_type": "BOTH"
     },
     {
@@ -122,10 +119,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "79",
-      "name": "RavAds",
-      "domain": "ravads.net",
-      "seller_type": "BOTH"
+      "seller_id": "82",
+      "seller_type": "BOTH",
+      "is_confidential": 1
     },
     {
       "seller_id": "123",
@@ -158,9 +154,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "116",
-      "name": "EffixAds",
-      "domain": "effixads.com",
+      "seller_id": "79",
+      "name": "RavAds",
+      "domain": "ravads.net",
       "seller_type": "BOTH"
     },
     {
@@ -195,9 +191,8 @@
     },
     {
       "seller_id": "117",
-      "name": "Xingya-CTV",
-      "domain": "pumpkinads.com",
-      "seller_type": "BOTH"
+      "seller_type": "BOTH",
+      "is_confidential": 1
     },
     {
       "seller_id": "64",
@@ -224,9 +219,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "118",
-      "name": "qizhi-IAV",
-      "domain": "pumpkinads.com",
+      "seller_id": "125",
+      "name": "Admida",
+      "domain": "admida.com",
       "seller_type": "BOTH"
     },
     {
@@ -242,10 +237,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "125",
-      "name": "Admida",
-      "domain": "admida.com",
-      "seller_type": "BOTH"
+      "seller_id": "118",
+      "seller_type": "BOTH",
+      "is_confidential": 1
     },
     {
       "seller_id": "85",
@@ -257,12 +251,6 @@
       "seller_id": "61",
       "name": "PERFORMENA",
       "domain": "performist.net",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "119",
-      "name": "qizhi Web banner",
-      "domain": "pumpkinads.com",
       "seller_type": "BOTH"
     },
     {
@@ -278,9 +266,33 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "129",
-      "name": "FusionAD",
-      "domain": "fusionad.ai",
+      "seller_id": "165",
+      "name": "AdSelect ",
+      "domain": "adselect.co",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "149",
+      "name": "Amcom",
+      "domain": "weamcom.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "160",
+      "name": "Speroll Media",
+      "domain": "speroll.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "164",
+      "name": "MediaXchange",
+      "domain": "mediaxchange.co",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "163",
+      "name": "Tobid Technology",
+      "domain": "huiinex.com",
       "seller_type": "BOTH"
     },
     {
@@ -293,12 +305,6 @@
       "seller_id": "66",
       "name": "Intenze SSP",
       "domain": "intenze.co",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "121",
-      "name": "DoubleClick-CTV 3",
-      "domain": "pumpkinads.com",
       "seller_type": "BOTH"
     },
     {
@@ -320,15 +326,89 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "145",
+      "name": "AfizDigital ",
+      "domain": "afizdigital.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "135",
+      "name": "AcunX",
+      "domain": "acunexus.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "132",
       "name": "Screencore ",
       "domain": "screencore.io",
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "129",
+      "name": "FusionAD",
+      "domain": "fusionad.ai",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "121",
+      "seller_type": "BOTH",
+      "is_confidential": 1
+    },
+    {
       "seller_id": "147",
       "name": "Adsview ",
       "domain": "adsviewksa.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "119",
+      "seller_type": "BOTH",
+      "is_confidential": 1
+    },
+    {
+      "seller_id": "93",
+      "seller_type": "BOTH",
+      "is_confidential": 1
+    },
+    {
+      "seller_id": "153",
+      "name": "Threecore",
+      "domain": "threecore.tech",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "159",
+      "seller_type": "BOTH",
+      "is_confidential": 1
+    },
+    {
+      "seller_id": "91",
+      "name": "CasAI SSP",
+      "domain": "cas.ai",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "156",
+      "name": "Tapmind",
+      "domain": "tapmind.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "166",
+      "name": "Smoot",
+      "domain": "smoot.ai",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "151",
+      "name": "Bidderad",
+      "domain": "bidderads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "150",
+      "name": "Nexbid",
+      "domain": "Nexbid.uk",
       "seller_type": "BOTH"
     },
     {
@@ -338,15 +418,15 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "12",
-      "name": "Felixads",
-      "domain": "felixads.com",
+      "seller_id": "140",
+      "name": "AdBite",
+      "domain": "adbite.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "89",
-      "name": "IntellectScoop",
-      "domain": "intellectscoop.com",
+      "seller_id": "141",
+      "name": "AdSAAY LLC ",
+      "domain": "adsaay.com",
       "seller_type": "BOTH"
     },
     {
@@ -374,16 +454,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "140",
-      "name": "AdBite",
-      "domain": "adbite.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "120",
-      "name": "DoubleClick-IAV",
-      "domain": "pumpkinads.com",
-      "seller_type": "BOTH"
+      "seller_id": "136",
+      "seller_type": "BOTH",
+      "is_confidential": 1
     },
     {
       "seller_id": "76",
@@ -398,15 +471,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "91",
-      "name": "CasAI SSP",
-      "domain": "cas.ai",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "148",
-      "name": "AdPhibia ",
-      "domain": "adphibia.com",
+      "seller_id": "89",
+      "name": "IntellectScoop",
+      "domain": "intellectscoop.com",
       "seller_type": "BOTH"
     },
     {
@@ -416,15 +483,15 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "135",
-      "name": "AcunX",
-      "domain": "acunexus.com",
+      "seller_id": "12",
+      "name": "Felixads",
+      "domain": "felixads.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "130",
-      "name": "Motorik",
-      "domain": "motorik.io",
+      "seller_id": "161",
+      "name": "Frequency33",
+      "domain": "frequency33.com",
       "seller_type": "BOTH"
     },
     {
@@ -440,16 +507,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "48",
-      "name": "AdScholar",
-      "domain": "adscholars.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "136",
-      "name": "DoubleClick 2",
-      "domain": "pumpkinads.com",
-      "seller_type": "BOTH"
+      "seller_id": "120",
+      "seller_type": "BOTH",
+      "is_confidential": 1
     },
     {
       "seller_id": "139",
@@ -458,9 +518,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "93",
-      "name": "qizhi-CTV",
-      "domain": "pumpkinads.com",
+      "seller_id": "48",
+      "name": "AdScholar",
+      "domain": "adscholars.com",
       "seller_type": "BOTH"
     },
     {
@@ -470,15 +530,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "141",
-      "name": "AdSAAY LLC ",
-      "domain": "adsaay.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "143",
-      "name": "Regal Rise Media LLC",
-      "domain": "regalrisemedia.com",
+      "seller_id": "152",
+      "name": "Kelltan Ads ",
+      "domain": "kelltanadsltd.com",
       "seller_type": "BOTH"
     },
     {
@@ -488,15 +542,27 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "96",
-      "name": "AdNext ",
-      "domain": "www.adnext.mobi",
+      "seller_id": "143",
+      "name": "Regal Rise Media LLC",
+      "domain": "regalrisemedia.com",
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "142",
-      "name": "Cue7ven ",
-      "domain": "Cue7ven.com",
+      "seller_id": "148",
+      "name": "AdPhibia ",
+      "domain": "adphibia.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "157",
+      "name": "LiftMyAds",
+      "domain": "liftmyads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "154",
+      "name": "Bidstrade",
+      "domain": "bidstrade.io",
       "seller_type": "BOTH"
     },
     {
@@ -506,21 +572,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "51",
-      "name": "MonetizeMatrix",
-      "domain": "monetizematrix.com",
-      "seller_type": "BOTH"
-    },
-    {
       "seller_id": "33",
       "name": "Sparklemob",
       "domain": "sparklexads.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "144",
-      "name": "AdNexus",
-      "domain": "adnexusmarketing.com",
       "seller_type": "BOTH"
     },
     {
@@ -530,9 +584,21 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "28",
-      "name": "Admozart",
-      "domain": "admozart.com",
+      "seller_id": "90",
+      "name": "DoChase",
+      "domain": "dochase.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "162",
+      "name": "SkyFoundry ",
+      "domain": "blasto.ai",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "51",
+      "name": "MonetizeMatrix",
+      "domain": "monetizematrix.com",
       "seller_type": "BOTH"
     },
     {
@@ -560,12 +626,6 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "90",
-      "name": "DoChase",
-      "domain": "dochase.com",
-      "seller_type": "BOTH"
-    },
-    {
       "seller_id": "49",
       "name": "NativeMonetize",
       "domain": "nativemonetize.com",
@@ -575,6 +635,12 @@
       "seller_id": "53",
       "name": "JungleTech",
       "domain": "thejungletechnology.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "158",
+      "name": "clixbee",
+      "domain": "clixbee.net",
       "seller_type": "BOTH"
     },
     {
@@ -590,9 +656,33 @@
       "seller_type": "BOTH"
     },
     {
+      "seller_id": "142",
+      "name": "Cue7ven ",
+      "domain": "Cue7ven.com",
+      "seller_type": "BOTH"
+    },
+    {
       "seller_id": "58",
       "name": "KraftAds",
       "domain": "kraftads.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "144",
+      "name": "AdNexus",
+      "domain": "adnexusmarketing.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "28",
+      "name": "Admozart",
+      "domain": "admozart.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "155",
+      "name": "Hax Media",
+      "domain": "haxmediapartners.com",
       "seller_type": "BOTH"
     },
     {
@@ -668,21 +758,15 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "7",
-      "name": "Doubleclick",
-      "domain": "pumpkinads.com",
-      "seller_type": "BOTH"
-    },
-    {
-      "seller_id": "102",
-      "name": "FlowNova",
-      "domain": "FlowNova.tech",
-      "seller_type": "BOTH"
-    },
-    {
       "seller_id": "42",
       "name": "Lltui",
       "domain": "lltui.com",
+      "seller_type": "BOTH"
+    },
+    {
+      "seller_id": "109",
+      "name": "NexBids",
+      "domain": "nexbids.com",
       "seller_type": "BOTH"
     },
     {
@@ -716,9 +800,9 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "109",
-      "name": "NexBids",
-      "domain": "nexbids.com",
+      "seller_id": "102",
+      "name": "FlowNova",
+      "domain": "FlowNova.tech",
       "seller_type": "BOTH"
     },
     {
@@ -746,9 +830,14 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "145",
-      "name": "AfizDigital ",
-      "domain": "afizdigital.com",
+      "seller_id": "7",
+      "seller_type": "BOTH",
+      "is_confidential": 1
+    },
+    {
+      "seller_id": "130",
+      "name": "Motorik",
+      "domain": "motorik.io",
       "seller_type": "BOTH"
     },
     {
@@ -758,15 +847,21 @@
       "seller_type": "BOTH"
     },
     {
-      "seller_id": "146",
-      "name": "BidExchange",
-      "domain": "thebidexchange.com",
+      "seller_id": "96",
+      "name": "AdNext ",
+      "domain": "www.adnext.mobi",
       "seller_type": "BOTH"
     },
     {
       "seller_id": "35",
       "seller_type": "BOTH",
       "is_confidential": 1
+    },
+    {
+      "seller_id": "146",
+      "name": "BidExchange",
+      "domain": "thebidexchange.com",
+      "seller_type": "BOTH"
     },
     {
       "seller_id": "110",
