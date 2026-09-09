@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Play Game</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <style>
+    html, body { margin:0; padding:0; height:100%; background:#000;}
+    #game-frame { border:none; width:100vw; height:100vh; display:block;}
+    .back-btn { position:fixed; top:18px; left:18px; z-index:20; padding:9px 22px; background:rgba(22,26,36,0.85); color:#ffd700; border-radius:12px; font-size:1.04rem; text-decoration:none; border:none; font-weight:600; transition:background 0.16s;}
+    .back-btn:hover { background:rgba(255,215,0,0.22); color:#232944; }
+  </style>
+</head>
+<body>
+  <a href="javascript:window.history.back()" class="back-btn">&#8592; Back</a>
+  <iframe id="game-frame"></iframe>
+
+  <script>
+    const url = new URLSearchParams(location.search).get('url');
+    if(url){
+      document.getElementById('game-frame').src = decodeURIComponent(url);
+    } else {
+      document.body.innerHTML = '<div style="color:#ffd700;text-align:center;padding-top:120px;font-size:1.3rem;">Game URL not specified.</div>';
+    }
+  </script>
+</body>
+</html>
