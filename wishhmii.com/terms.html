@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title data-i18n="site_title"></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+<meta name="description" content="WISHHMII GAMES is a high-quality matrix of 100+ popular and carefully selected HTML5 casual games. Play instantly, multi-language support, fully mobile-friendly, safe and Google AdSense ready.">
+<meta name="keywords" content="html5 games, casual games, free online games, mobile games, play now, WISHHMII GAMES , popular games, browser games, 游戏矩阵, 游戏大全, HTML5, 免费游戏">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WISHHMII GAMES ">
+<meta property="og:title" content="WISHHMII GAMES - Play 100+ Casual HTML5 Games Online">
+<meta property="og:description" content="Discover and play the best HTML5 casual games instantly on WISHHMII GAMES . 100+ popular and mobile-friendly browser games.">
+<meta property="og:image" content="assets/og-cover.png">
+<meta property="og:url" content="https://wishhmii.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="WISHHMII GAMES - Play 100+ Casual HTML5 Games Online">
+<meta name="twitter:description" content="Discover and play the best HTML5 casual games instantly on WISHHMII GAMES . 100+ popular and mobile-friendly browser games.">
+<meta name="twitter:image" content="assets/og-cover.png">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/i18n.js"></script>
+  
+<script src="assets/js/three.min.js"></script>
+<script src="assets/js/vanta.net.min.js"></script>
+<script src="assets/js/vanta.dots.min.js"></script>
+
+</head>
+<body>
+  
+<div id="vanta-bg" style="position:fixed;z-index:-1;inset:0;width:100vw;height:100vh;"></div>
+
+  <header>
+    <div id="vanta-header-bg" style="position:absolute;z-index:1;inset:0;width:100%;height:100%;"></div>
+    <div class="header-container">
+      <a href="index.html" class="logo" data-i18n="logo" style="text-decoration:none;">WISHHMII GAMES </a>
+      <button class="burger-menu" id="burger-menu" aria-label="Menu">&#9776;</button>
+      <div class="lang-switch">
+        <select id="lang-switch">
+          <option value="en">EN</option>
+          <option value="zh">中文</option>
+          <option value="fr">FR</option>
+          <option value="es">ES</option>
+        </select>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" data-i18n="home">Home</a>
+        <a href="about.html" data-i18n="about">About Us</a>
+        <a href="contact.html" data-i18n="contact">Contact Us</a>
+      </nav>
+    </div>
+    <div class="mobile-drawer" id="mobile-drawer">
+      <div class="drawer-content">
+        <button class="drawer-close" id="drawer-close" aria-label="Close">&times;</button>
+        <a href="index.html" data-i18n="home">Home</a>
+        <a href="about.html" data-i18n="about">About Us</a>
+        <a href="privacy.html" data-i18n="privacy">Privacy Policy</a>
+        <a href="terms.html" data-i18n="terms">Terms of Service</a>
+        <a href="contact.html" data-i18n="contact">Contact Us</a>
+        <div class="drawer-footer">
+          <a href="privacy.html" data-i18n="privacy">Privacy Policy</a>
+          <a href="terms.html" data-i18n="terms">Terms of Service</a>
+          <div class="drawer-copyright" data-i18n="footer">&copy; 2025 WISHHMII GAMES </div>
+        </div>
+      </div>
+      <div class="drawer-mask"></div>
+    </div>
+  </header>
+  <main>
+    
+<div id="terms-content"></div>
+<script>
+  const termsContent = {"en": "\n      <h2 style=\"font-size:2.1rem;margin-bottom:20px;color:#ffd700;text-align:center;\">Terms of Service</h2>\n      <div style=\"max-width:700px;margin:0 auto;font-size:1.12rem;line-height:1.8;\">\n        <p>\n          Welcome to <b>WISHHMII GAMES </b>. By accessing or using our website and games, you agree to the following terms:\n        </p>\n        <h3 style=\"color:#ffd700;\">1. Entertainment Only</h3>\n        <p>\n          All games and content on this site are provided solely for entertainment purposes. <b>No gambling, betting, or real-money prizes</b> are offered or allowed.\n        </p>\n        <h3 style=\"color:#ffd700;\">2. User Conduct</h3>\n        <ul>\n          <li>Do not use the site for any illegal, harmful, or abusive activities.</li>\n          <li>Do not attempt to hack, cheat, or disrupt game services.</li>\n          <li>Respect other users and do not post offensive content.</li>\n        </ul>\n        <h3 style=\"color:#ffd700;\">3. Intellectual Property</h3>\n        <p>\n          All games, graphics, and content are owned or licensed by WISHHMII GAMES and protected by intellectual property laws. Do not copy, distribute, or modify without permission.\n        </p>\n        <h3 style=\"color:#ffd700;\">4. Third-Party Links</h3>\n        <p>\n          Our site may contain links to third-party sites or games. We are not responsible for their content or practices; please review their terms separately.\n        </p>\n        <h3 style=\"color:#ffd700;\">5. Disclaimer</h3>\n        <p>\n          WISHHMII GAMES is provided \"as is\" without warranties of any kind. We do not guarantee uninterrupted service or error-free games.\n        </p>\n        <h3 style=\"color:#ffd700;\">6. Changes</h3>\n        <p>\n          We may update these terms at any time. Continued use of the site means you accept any changes.\n        </p>\n        <h3 style=\"color:#ffd700;\">7. Contact</h3>\n        <p>\n          For questions about these terms, please contact us at <a href=\"mailto:mobgeek856@gmail.com\" style=\"color:#ffd700\">mobgeek856@gmail.com</a>.\n        </p>\n      </div>\n    ", "zh": "\n      <h2 style=\"font-size:2.1rem;margin-bottom:20px;color:#ffd700;text-align:center;\">服务条款</h2>\n      <div style=\"max-width:700px;margin:0 auto;font-size:1.12rem;line-height:1.8;\">\n        <p>\n          欢迎使用 <b>WISHHMII GAMES </b>。访问或使用本网站及游戏即表示您同意以下条款：\n        </p>\n        <h3 style=\"color:#ffd700;\">1. 仅供娱乐</h3>\n        <p>\n          本站所有游戏与内容仅供娱乐。<b>不涉及赌博、博彩或任何真钱奖励</b>，禁止相关行为。\n        </p>\n        <h3 style=\"color:#ffd700;\">2. 用户行为</h3>\n        <ul>\n          <li>不得用于任何非法、有害或滥用目的。</li>\n          <li>禁止黑客攻击、作弊或破坏游戏服务。</li>\n          <li>尊重其他用户，禁止发布不当或冒犯性内容。</li>\n        </ul>\n        <h3 style=\"color:#ffd700;\">3. 知识产权</h3>\n        <p>\n          所有游戏、图像和内容归 WISHHMII GAMES 所有或获授权，受知识产权法保护。未经许可不得复制、分发或修改。\n        </p>\n        <h3 style=\"color:#ffd700;\">4. 第三方链接</h3>\n        <p>\n          本站可能包含第三方网站或游戏的链接。相关内容与行为请自行甄别，WISHHMII GAMES 不承担责任。\n        </p>\n        <h3 style=\"color:#ffd700;\">5. 免责声明</h3>\n        <p>\n          WISHHMII GAMES 按“现状”提供，不保证服务持续可用或完全无误。\n        </p>\n        <h3 style=\"color:#ffd700;\">6. 条款变更</h3>\n        <p>\n          我们可能随时更新本条款。继续使用即视为接受变更。\n        </p>\n        <h3 style=\"color:#ffd700;\">7. 联系我们</h3>\n        <p>\n          如有疑问，请联系 <a href=\"mailto:mobgeek856@gmail.com\" style=\"color:#ffd700\">mobgeek856@gmail.com</a>。\n        </p>\n      </div>\n    ", "fr": "\n      <h2 style=\"font-size:2.1rem;margin-bottom:20px;color:#ffd700;text-align:center;\">Conditions d'utilisation</h2>\n      <div style=\"max-width:700px;margin:0 auto;font-size:1.12rem;line-height:1.8;\">\n        <p>\n          Bienvenue sur <b>WISHHMII GAMES </b>. En accédant à notre site ou à nos jeux, vous acceptez les conditions suivantes :\n        </p>\n        <h3 style=\"color:#ffd700;\">1. Divertissement uniquement</h3>\n        <p>\n          Tous les jeux et contenus sont proposés à des fins de divertissement uniquement. <b>Pas de jeux d'argent, de paris ou de gains en argent réel</b>.\n        </p>\n        <h3 style=\"color:#ffd700;\">2. Comportement de l'utilisateur</h3>\n        <ul>\n          <li>Ne pas utiliser le site à des fins illégales ou nuisibles.</li>\n          <li>Ne pas pirater, tricher ou perturber les services de jeu.</li>\n          <li>Respectez les autres utilisateurs, ne publiez pas de contenu offensant.</li>\n        </ul>\n        <h3 style=\"color:#ffd700;\">3. Propriété intellectuelle</h3>\n        <p>\n          Tous les jeux, images et contenus sont la propriété de WISHHMII GAMES ou sous licence. Ne copiez, distribuez ou modifiez rien sans autorisation.\n        </p>\n        <h3 style=\"color:#ffd700;\">4. Liens tiers</h3>\n        <p>\n          Notre site peut contenir des liens vers des sites ou jeux tiers. Nous ne sommes pas responsables de leur contenu ou pratiques.\n        </p>\n        <h3 style=\"color:#ffd700;\">5. Avertissement</h3>\n        <p>\n          WISHHMII GAMES est fourni \"en l'état\", sans garantie d'aucune sorte. Aucun service ininterrompu n'est garanti.\n        </p>\n        <h3 style=\"color:#ffd700;\">6. Modifications</h3>\n        <p>\n          Nous pouvons modifier ces conditions à tout moment. L'utilisation continue vaut acceptation des changements.\n        </p>\n        <h3 style=\"color:#ffd700;\">7. Contact</h3>\n        <p>\n          Pour toute question, contactez-nous à <a href=\"mailto:mobgeek856@gmail.com\" style=\"color:#ffd700\">mobgeek856@gmail.com</a>.\n        </p>\n      </div>\n    ", "es": "\n      <h2 style=\"font-size:2.1rem;margin-bottom:20px;color:#ffd700;text-align:center;\">Términos de Servicio</h2>\n      <div style=\"max-width:700px;margin:0 auto;font-size:1.12rem;line-height:1.8;\">\n        <p>\n          Bienvenido a <b>WISHHMII GAMES </b>. Al acceder o utilizar nuestro sitio web y juegos, usted acepta los siguientes términos:\n        </p>\n        <h3 style=\"color:#ffd700;\">1. Solo entretenimiento</h3>\n        <p>\n          Todos los juegos y contenidos en este sitio son solo para entretenimiento. <b>No se permite apuestas, juegos de azar ni premios en dinero real</b>.\n        </p>\n        <h3 style=\"color:#ffd700;\">2. Conducta del usuario</h3>\n        <ul>\n          <li>No utilice el sitio para actividades ilegales o dañinas.</li>\n          <li>No hackee, haga trampas ni interrumpa los servicios de juegos.</li>\n          <li>Respete a otros usuarios y no publique contenido ofensivo.</li>\n        </ul>\n        <h3 style=\"color:#ffd700;\">3. Propiedad intelectual</h3>\n        <p>\n          Todos los juegos, imágenes y contenidos son propiedad de WISHHMII GAMES o están licenciados. No copie, distribuya ni modifique sin permiso.\n        </p>\n        <h3 style=\"color:#ffd700;\">4. Enlaces de terceros</h3>\n        <p>\n          El sitio puede contener enlaces a sitios o juegos de terceros. No somos responsables de su contenido o prácticas.\n        </p>\n        <h3 style=\"color:#ffd700;\">5. Descargo de responsabilidad</h3>\n        <p>\n          WISHHMII GAMES se ofrece \"tal cual\", sin garantías de ningún tipo. No garantizamos servicio ininterrumpido ni juegos sin errores.\n        </p>\n        <h3 style=\"color:#ffd700;\">6. Cambios</h3>\n        <p>\n          Podemos actualizar estos términos en cualquier momento. El uso continuado implica aceptación de los cambios.\n        </p>\n        <h3 style=\"color:#ffd700;\">7. Contacto</h3>\n        <p>\n          Para consultas sobre estos términos, contáctenos en <a href=\"mailto:mobgeek856@gmail.com\" style=\"color:#ffd700\">mobgeek856@gmail.com</a>.\n        </p>\n      </div>\n    "};
+  function renderTerms() {
+    var lang = localStorage.getItem('lang') || 'en';
+    var html = termsContent[lang] || termsContent['en'];
+    document.getElementById('terms-content').innerHTML = html;
+  }
+  document.addEventListener('DOMContentLoaded', renderTerms);
+</script>
+
+  </main>
+  <footer>
+    <div class="footer-links">
+      <a href="about.html" data-i18n="about">About Us</a>
+      <span class="footer-divider">|</span>
+      <a href="privacy.html" data-i18n="privacy">Privacy Policy</a>
+      <span class="footer-divider">|</span>
+      <a href="terms.html" data-i18n="terms">Terms of Service</a>
+    </div>
+    <hr class="footer-hr">
+    <span class="footer-copyright" data-i18n="footer">
+      All games are for entertainment. &copy; 2025 WISHHMII GAMES 
+    </span>
+  </footer>
+  <script src="assets/js/layout.js"></script>
+  
+<script type="application/ld+json">
+{{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "WISHHMII GAMES ",
+  "url": "https://wishhmii.com/",
+  "description": "A matrix of 100+ popular HTML5 browser games, fully mobile-friendly.",
+  "inLanguage": "en",
+  "potentialAction": {{
+    "@type": "SearchAction",
+    "target": "https://wishhmii.com/?q={{search_term_string}}",
+    "query-input": "required name=search_term_string"
+  }},
+  "publisher": {{
+    "@type": "Organization",
+    "name": "WISHHMII GAMES ",
+    "logo": {{
+      "@type": "ImageObject",
+      "url": "assets/logo.png"
+    }}
+  }}
+}}
+</script>
+
+  
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  // 全屏动态网格背景
+  if(window.VANTA && window.VANTA.NET){
+    window.VANTA.NET({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xffd700,
+      backgroundColor: 0x161a24,
+      points: 12.00,
+      maxDistance: 22.00,
+      spacing: 18.00
+    });
+  }
+  // header 动效，延迟确保渲染
+  setTimeout(function() {
+    if(window.VANTA && window.VANTA.DOTS){
+      window.VANTA.DOTS({
+        el: "#vanta-header-bg",
+        mouseControls: false,
+        touchControls: false,
+        minHeight: 80.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundColor: 0x1a1f33,
+        color: 0xffffff,
+        size: 1.7,
+        spacing: 22.00
+      });
+    }
+  }, 200);
+});
+</script>
+
+
+<button id="back-to-top" aria-label="Back to top" title="Back to Top">&#8679;</button>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var backBtn = document.getElementById('back-to-top');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 360) {
+      backBtn.classList.add('show');
+    } else {
+      backBtn.classList.remove('show');
+    }
+  });
+  backBtn.onclick = function() {
+    window.scrollTo({top:0, behavior:'smooth'});
+  };
+});
+</script>
+
+</body>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HBCFB317M5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HBCFB317M5');
+</script>
+</html>
